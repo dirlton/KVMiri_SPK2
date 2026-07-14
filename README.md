@@ -1,36 +1,126 @@
-# Website Interaktif SPK KV Miri 2026
+WEBSITE INTERAKTIF SPK KV MIRI 2026
 
-Portal pembelajaran SPK yang dinaik taraf dengan pendaftaran peserta, final assessment 50 soalan, integrasi Google Apps Script, Certificate ID, semakan sijil dan Dashboard Pentadbir.
+README (Panduan Pemasangan & Penggunaan)
 
-## Konfigurasi
+  Versi: 2.0 Status: Production Ready
 
-Semua tetapan sistem utama berada di:
+============================================================ 1.
+PENGENALAN ============================================================
 
-`assets/js/config.js`
+Website Interaktif SPK KV Miri merupakan sebuah Learning Management
+System (LMS) berasaskan HTML, CSS dan JavaScript yang dibangunkan untuk
+menyokong latihan Sistem Pengurusan Kualiti (SPK).
 
-Tetapan termasuk `API_URL`, `PASS_MARK`, `TOTAL_FINAL_QUESTIONS`, `CERTIFICATE_PREFIX`, `STORAGE_KEY`, `MAX_ATTEMPT` dan status integrasi Google Apps Script.
+Fungsi utama: - Modul pembelajaran interaktif - Kuiz setiap modul -
+Final Assessment - Dashboard - Progress pembelajaran - XP & Badge -
+Sijil automatik - Integrasi Google Apps Script - Google Sheets sebagai
+pangkalan data - Rekod kehadiran - Rekod markah
 
-## Google Apps Script
+============================================================ 2.
+TEKNOLOGI ============================================================
 
-Kod backend penuh disediakan di:
+Frontend: - HTML5 - CSS3 - JavaScript ES6
 
-`google-apps-script/Code.gs`
+Backend: - Google Apps Script
 
-Salin kandungan fail tersebut ke projek Google Apps Script Web App yang menggunakan URL dalam `config.js`. Script akan menyediakan dua sheet:
+Database: - Google Sheets
 
-- `Kehadiran`
-- `Markah`
+Storage: - LocalStorage
 
-Endpoint menyokong action berikut:
+============================================================ 3.
+KEPERLUAN ============================================================
 
-- `saveAttendance`
-- `saveScore`
-- `generateCertificate`
-- `verifyCertificate`
-- `getStatistics`
-- `getParticipant`
+-   Google Chrome / Edge
+-   VS Code
+-   Live Server
+-   Akaun Google
+-   Google Spreadsheet
+-   Google Apps Script
 
-## Aliran Peserta
+============================================================ 4. STRUKTUR
+FOLDER ============================================================
 
-Peserta mendaftar sekali sahaja, rekod dihantar ke Sheet `Kehadiran`, kemudian peserta meneruskan pembelajaran melalui Dashboard. Markah final assessment dihantar ke Sheet `Markah`, dan Certificate ID dijana oleh Google Apps Script apabila peserta lulus.
-"# KVMiri_SPK2" 
+WebsiteSPK2026/ assets/ css/ js/ data/ modules/ dashboard/ certificate/
+components/ google-apps-script/ config.js index.html
+
+============================================================ 5.
+PENYEDIAAN GOOGLE SHEETS
+============================================================
+
+Cipta Spreadsheet: SPK KV Miri 2026
+
+Sheet: 1. Kehadiran 2. Markah
+
+Sheet Markah: Nama No KP Email Jawatan Unit Tarikh Masa Markah Peratus
+Status Masa Menjawab Cubaan Certificate ID
+
+============================================================ 6. GOOGLE
+APPS SCRIPT ============================================================
+
+Extensions -> Apps Script
+
+Deploy: - Web App - Execute As: Me - Who Has Access: Anyone
+
+Simpan URL Web App ke config.js.
+
+============================================================ 7.
+CONFIG.JS ============================================================
+
+Simpan semua konfigurasi di satu tempat.
+
+Contoh: API_URL PASS_MARK TOTAL_FINAL_QUESTIONS APP_VERSION
+CERTIFICATE_PREFIX
+
+============================================================ 8. ALIRAN
+SISTEM ============================================================
+
+Landing Page ↓ Pendaftaran Peserta ↓ Dashboard ↓ Module 1 ↓ Module 2 ↓
+Module 3 ↓ Module 4 ↓ Module 5 ↓ Final Assessment ↓ Google Apps Script ↓
+Google Sheets ↓ Certificate
+
+============================================================ 9.
+PENDAFTARAN PESERTA
+============================================================
+
+Maklumat: - Nama - No KP - Email - Jawatan - Unit
+
+Disimpan ke: - LocalStorage - Google Sheets
+
+============================================================ 10. FINAL
+ASSESSMENT ============================================================
+
+50 soalan Bahasa Malaysia Rawak 4 pilihan jawapan Markah automatik
+
+Selepas selesai: - Hantar markah - Jana Certificate ID - Papar keputusan
+
+============================================================ 11.
+TROUBLESHOOTING
+============================================================
+
+Data tidak dihantar: - Semak API_URL - Semak deployment Apps Script -
+Semak kebenaran “Anyone” - Semak Console Browser
+
+============================================================ 12.
+PENYELENGGARAAN
+============================================================
+
+-   Jangan hardcode URL.
+-   Gunakan config.js.
+-   Backup Google Sheets.
+-   Backup Apps Script.
+
+============================================================ 13. ROADMAP
+============================================================
+
+-   Dashboard Pentadbir
+-   Semakan Sijil
+-   Email automatik
+-   Leaderboard
+-   Looker Studio
+-   Analitik
+
+============================================================ 14. LESEN
+============================================================
+
+Hak Cipta © Kolej Vokasional Miri. Untuk kegunaan dalaman dan latihan
+SPK.

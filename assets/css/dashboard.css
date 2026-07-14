@@ -1,0 +1,316 @@
+
+/*!
+==========================================================
+SPK KV MIRI 2026
+dashboard.css
+Production Dashboard Styles v1.0
+==========================================================
+*/
+
+/* ===============================
+   DASHBOARD LAYOUT
+=================================*/
+
+.dashboard{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    min-height:100vh;
+    background:var(--bg);
+}
+
+.sidebar{
+    position:sticky;
+    top:0;
+    height:100vh;
+    background:var(--surface);
+    border-right:1px solid var(--border);
+    padding:2rem 1.5rem;
+    overflow-y:auto;
+}
+
+.dashboard-main{
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+}
+
+/* ===============================
+   SIDEBAR
+=================================*/
+
+.sidebar-logo{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    margin-bottom:2rem;
+}
+
+.sidebar-logo img{
+    width:56px;
+    height:56px;
+    object-fit:contain;
+}
+
+.sidebar-title{
+    font-size:1.2rem;
+    font-weight:700;
+    color:var(--text);
+}
+
+.sidebar-nav{
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+}
+
+.sidebar-nav a{
+    display:flex;
+    align-items:center;
+    gap:.9rem;
+    padding:.9rem 1rem;
+    border-radius:var(--radius-md);
+    color:var(--text);
+    transition:var(--transition);
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active{
+    background:var(--primary);
+    color:#fff;
+    transform:translateX(4px);
+}
+
+/* ===============================
+   TOPBAR
+=================================*/
+
+.topbar{
+    position:sticky;
+    top:0;
+    z-index:900;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 2rem;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
+}
+
+.search-box{
+    display:flex;
+    align-items:center;
+    gap:.75rem;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:.2rem .8rem;
+    width:min(420px,100%);
+}
+
+.search-box input{
+    border:none;
+    background:transparent;
+    padding:.8rem 0;
+}
+
+.topbar-actions{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
+.icon-btn{
+    width:46px;
+    height:46px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    background:var(--surface);
+    border:1px solid var(--border);
+    transition:var(--transition);
+}
+
+.icon-btn:hover{
+    background:var(--primary);
+    color:#fff;
+}
+
+/* ===============================
+   CONTENT
+=================================*/
+
+.dashboard-content{
+    padding:2rem;
+}
+
+.page-title{
+    margin-bottom:2rem;
+}
+
+/* ===============================
+   STATS
+=================================*/
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:1.5rem;
+}
+
+.stat-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-lg);
+    padding:1.5rem;
+    box-shadow:var(--shadow-sm);
+    transition:var(--transition);
+}
+
+.stat-card:hover{
+    transform:translateY(-6px);
+    box-shadow:var(--shadow-md);
+}
+
+.stat-value{
+    font-size:2rem;
+    font-weight:700;
+    margin:.4rem 0;
+}
+
+/* ===============================
+   MODULES
+=================================*/
+
+.module-grid{
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1.5rem;
+}
+
+.module-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-lg);
+    overflow:hidden;
+    transition:var(--transition);
+}
+
+.module-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow-lg);
+}
+
+.module-header{
+    padding:1.2rem;
+    background:var(--gradient-primary);
+    color:#fff;
+}
+
+.module-body{
+    padding:1.5rem;
+}
+
+.progress-bar{
+    width:100%;
+    height:10px;
+    border-radius:999px;
+    background:var(--surface-alt);
+    overflow:hidden;
+}
+
+.progress-bar span{
+    display:block;
+    height:100%;
+    background:linear-gradient(90deg,var(--success),#4ade80);
+}
+
+/* ===============================
+   ACHIEVEMENTS
+=================================*/
+
+.badge-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap:1rem;
+}
+
+.badge-card{
+    text-align:center;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+    padding:1rem;
+}
+
+/* ===============================
+   TABLE
+=================================*/
+
+.dashboard-table{
+    margin-top:2rem;
+    background:var(--surface);
+    border-radius:var(--radius-lg);
+    overflow:hidden;
+    box-shadow:var(--shadow-sm);
+}
+
+/* ===============================
+   ANNOUNCEMENT
+=================================*/
+
+.announcement{
+    border-left:5px solid var(--primary);
+    background:var(--surface);
+    padding:1.2rem;
+    border-radius:var(--radius-md);
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+
+@media(max-width:1100px){
+    .dashboard{
+        grid-template-columns:90px 1fr;
+    }
+
+    .sidebar-title,
+    .sidebar-nav span{
+        display:none;
+    }
+}
+
+@media(max-width:768px){
+
+    .dashboard{
+        grid-template-columns:1fr;
+    }
+
+    .sidebar{
+        position:fixed;
+        left:-100%;
+        width:280px;
+        transition:.35s;
+        z-index:1000;
+    }
+
+    .sidebar.show{
+        left:0;
+    }
+
+    .topbar{
+        padding:1rem;
+    }
+
+    .dashboard-content{
+        padding:1rem;
+    }
+
+    .stats-grid,
+    .module-grid,
+    .badge-grid{
+        grid-template-columns:1fr;
+    }
+}

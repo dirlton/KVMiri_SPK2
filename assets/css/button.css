@@ -1,0 +1,250 @@
+
+/*!
+==========================================================
+SPK KV MIRI 2026
+button.css
+Production Button Library v1.0
+==========================================================
+*/
+
+/* ==========================================================
+   BASE BUTTON
+========================================================== */
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.65rem;
+    padding:.95rem 1.6rem;
+    border:none;
+    border-radius:999px;
+    font-weight:600;
+    font-size:.95rem;
+    cursor:pointer;
+    text-decoration:none;
+    transition:var(--transition);
+    user-select:none;
+    white-space:nowrap;
+}
+
+.btn:disabled,
+.btn.disabled{
+    opacity:.6;
+    cursor:not-allowed;
+    pointer-events:none;
+}
+
+/* Sizes */
+.btn-sm{padding:.65rem 1rem;font-size:.85rem;}
+.btn-md{padding:.95rem 1.6rem;font-size:.95rem;}
+.btn-lg{padding:1.15rem 2rem;font-size:1.05rem;}
+.btn-block{display:flex;width:100%;}
+
+/* ==========================================================
+   VARIANTS
+========================================================== */
+
+.btn-primary{
+    background:var(--primary);
+    color:#fff;
+}
+.btn-primary:hover{
+    background:var(--primary-dark);
+    transform:translateY(-3px);
+    box-shadow:var(--shadow-md);
+}
+
+.btn-secondary{
+    background:var(--secondary);
+    color:#fff;
+}
+.btn-secondary:hover{
+    filter:brightness(1.05);
+    transform:translateY(-3px);
+}
+
+.btn-success{
+    background:var(--success);
+    color:#fff;
+}
+.btn-success:hover{
+    transform:translateY(-3px);
+    box-shadow:var(--shadow-md);
+}
+
+.btn-warning{
+    background:var(--warning);
+    color:#111827;
+}
+
+.btn-danger{
+    background:var(--secondary);
+    color:#fff;
+}
+
+.btn-info{
+    background:var(--info);
+    color:#fff;
+}
+
+.btn-outline{
+    background:transparent;
+    color:var(--primary);
+    border:2px solid var(--primary);
+}
+.btn-outline:hover{
+    background:var(--primary);
+    color:#fff;
+}
+
+.btn-ghost{
+    background:transparent;
+    color:var(--text);
+}
+.btn-ghost:hover{
+    background:var(--surface-alt);
+}
+
+.btn-gradient{
+    background:linear-gradient(135deg,var(--primary),var(--accent));
+    color:#fff;
+}
+.btn-gradient:hover{
+    transform:translateY(-3px);
+    box-shadow:var(--shadow-lg);
+}
+
+/* ==========================================================
+   ICON BUTTON
+========================================================== */
+
+.btn-icon{
+    width:48px;
+    height:48px;
+    padding:0;
+    border-radius:50%;
+}
+
+.btn-icon svg,
+.btn-icon i{
+    font-size:1.1rem;
+}
+
+/* ==========================================================
+   FLOATING ACTION BUTTON
+========================================================== */
+
+.btn-fab{
+    position:fixed;
+    right:2rem;
+    bottom:2rem;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:var(--primary);
+    color:#fff;
+    display:grid;
+    place-items:center;
+    box-shadow:var(--shadow-lg);
+    z-index:999;
+}
+
+.btn-fab:hover{
+    background:var(--accent);
+    transform:translateY(-4px);
+}
+
+/* ==========================================================
+   LOADING BUTTON
+========================================================== */
+
+.btn-loading{
+    position:relative;
+    pointer-events:none;
+}
+
+.btn-loading::after{
+    content:"";
+    width:18px;
+    height:18px;
+    margin-left:.6rem;
+    border:2px solid rgba(255,255,255,.35);
+    border-top-color:#fff;
+    border-radius:50%;
+    animation:btnSpin .8s linear infinite;
+}
+
+/* ==========================================================
+   BUTTON GROUP
+========================================================== */
+
+.btn-group{
+    display:inline-flex;
+    gap:.75rem;
+    flex-wrap:wrap;
+}
+
+/* ==========================================================
+   RIPPLE
+========================================================== */
+
+.btn-ripple{
+    position:relative;
+    overflow:hidden;
+}
+
+.btn-ripple::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(255,255,255,.18);
+    transform:scale(0);
+    opacity:0;
+    border-radius:inherit;
+    transition:.4s;
+}
+
+.btn-ripple:active::before{
+    transform:scale(2);
+    opacity:1;
+    transition:0s;
+}
+
+/* ==========================================================
+   DARK MODE
+========================================================== */
+
+html[data-theme="dark"] .btn-outline,
+body.dark .btn-outline{
+    color:#fff;
+    border-color:var(--primary);
+}
+
+html[data-theme="dark"] .btn-ghost:hover,
+body.dark .btn-ghost:hover{
+    background:var(--surface);
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width:768px){
+    .btn{
+        width:100%;
+    }
+
+    .btn-group{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .btn-fab{
+        right:1rem;
+        bottom:1rem;
+        width:54px;
+        height:54px;
+    }
+}

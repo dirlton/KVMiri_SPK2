@@ -1,0 +1,280 @@
+
+/*!
+==========================================================
+SPK KV MIRI 2026
+darkmode.css
+Production Theme Layer v1.0
+==========================================================
+*/
+
+/* ==========================================================
+   THEME ENGINE
+   Uses: <html data-theme="dark">
+   Backward compatible with body.dark
+========================================================== */
+
+:root{
+    color-scheme: light;
+}
+
+html[data-theme="dark"],
+body.dark{
+    color-scheme: dark;
+}
+
+/* ==========================================================
+   THEME TOKENS
+========================================================== */
+
+html[data-theme="dark"],
+body.dark{
+
+    --bg:#09111F;
+    --surface:#111827;
+    --surface-alt:#1F2937;
+
+    --text:#F3F4F6;
+    --muted:#CBD5E1;
+
+    --border:#374151;
+
+    --selection-bg:#3852D0;
+    --selection-text:#fff;
+
+    --shadow-xs:0 2px 8px rgba(0,0,0,.35);
+    --shadow-sm:0 6px 18px rgba(0,0,0,.40);
+    --shadow-md:0 14px 35px rgba(0,0,0,.50);
+    --shadow-lg:0 28px 60px rgba(0,0,0,.60);
+}
+
+/* ==========================================================
+   GLOBAL TRANSITION
+========================================================== */
+
+html,
+body,
+body *,
+body *::before,
+body *::after{
+    transition:
+        background-color .25s ease,
+        color .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+/* ==========================================================
+   BASE
+========================================================== */
+
+html[data-theme="dark"] body,
+body.dark{
+    background:var(--bg);
+    color:var(--text);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6{
+    color:var(--text);
+}
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] span,
+html[data-theme="dark"] small,
+html[data-theme="dark"] li,
+body.dark p,
+body.dark span,
+body.dark small,
+body.dark li{
+    color:var(--muted);
+}
+
+/* ==========================================================
+   SURFACES
+========================================================== */
+
+html[data-theme="dark"] .bg-white,
+body.dark .bg-white{
+    background:var(--surface);
+}
+
+html[data-theme="dark"] .bg-light,
+body.dark .bg-light{
+    background:var(--surface-alt);
+}
+
+html[data-theme="dark"] .glass,
+body.dark .glass{
+    background:rgba(17,24,39,.55);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+}
+
+/* ==========================================================
+   FORM
+========================================================== */
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select,
+body.dark input,
+body.dark textarea,
+body.dark select{
+    background:var(--surface);
+    color:var(--text);
+    border-color:var(--border);
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder,
+body.dark input::placeholder,
+body.dark textarea::placeholder{
+    color:var(--muted);
+}
+
+html[data-theme="dark"] input:focus,
+html[data-theme="dark"] textarea:focus,
+html[data-theme="dark"] select:focus,
+body.dark input:focus,
+body.dark textarea:focus,
+body.dark select:focus{
+    box-shadow:0 0 0 4px rgba(56,82,208,.25);
+}
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+html[data-theme="dark"] thead,
+body.dark thead{
+    background:var(--primary);
+}
+
+html[data-theme="dark"] tbody tr:nth-child(even),
+body.dark tbody tr:nth-child(even){
+    background:rgba(255,255,255,.03);
+}
+
+html[data-theme="dark"] tbody tr:hover,
+body.dark tbody tr:hover{
+    background:rgba(56,82,208,.12);
+}
+
+/* ==========================================================
+   CODE
+========================================================== */
+
+html[data-theme="dark"] code,
+body.dark code{
+    background:#1b2638;
+}
+
+html[data-theme="dark"] pre,
+body.dark pre{
+    background:#050A14;
+}
+
+/* ==========================================================
+   SHADOWS
+========================================================== */
+
+html[data-theme="dark"] .shadow-xs,
+body.dark .shadow-xs{box-shadow:var(--shadow-xs)}
+
+html[data-theme="dark"] .shadow-sm,
+body.dark .shadow-sm{box-shadow:var(--shadow-sm)}
+
+html[data-theme="dark"] .shadow,
+body.dark .shadow{box-shadow:var(--shadow-md)}
+
+html[data-theme="dark"] .shadow-lg,
+body.dark .shadow-lg{box-shadow:var(--shadow-lg)}
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+html[data-theme="dark"] ::-webkit-scrollbar-track,
+body.dark ::-webkit-scrollbar-track{
+    background:#0f172a;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar-thumb,
+body.dark ::-webkit-scrollbar-thumb{
+    background:var(--primary);
+}
+
+/* ==========================================================
+   SELECTION
+========================================================== */
+
+html[data-theme="dark"] ::selection,
+body.dark ::selection{
+    background:var(--selection-bg);
+    color:var(--selection-text);
+}
+
+/* ==========================================================
+   ACCESSIBILITY
+========================================================== */
+
+@media (prefers-reduced-motion: reduce){
+    html[data-theme="dark"] *,
+    body.dark *{
+        transition:none!important;
+    }
+}
+
+@media (prefers-contrast: more){
+    html[data-theme="dark"],
+    body.dark{
+        --border:#64748b;
+    }
+}
+
+@media print{
+    html[data-theme="dark"],
+    body.dark{
+        background:#fff!important;
+        color:#000!important;
+    }
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+html[data-theme="dark"] .hero,
+body.dark .hero{
+    background:
+        radial-gradient(circle at top right, rgba(56,82,208,.16), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(245,124,0,.12), transparent 30%),
+        var(--bg);
+}
+
+html[data-theme="dark"] .hero-card,
+body.dark .hero-card{
+    background:rgba(17,24,39,.65);
+    border-color:rgba(255,255,255,.08);
+}
+
+/* ==========================================================
+   DARK MODE
+========================================================== */
+
+html[data-theme="dark"] .card-glass,
+body.dark .card-glass{
+    background:rgba(17,24,39,.55);
+    border-color:rgba(255,255,255,.08);
+}

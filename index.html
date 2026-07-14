@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SPK KV MIRI 2026 - Portal pembelajaran interaktif untuk pensyarah baharu.">
+  <title>SPK KV MIRI 2026 | Portal Pembelajaran</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/darkmode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/hero.css">
+  <link rel="stylesheet" href="assets/css/module.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/quiz.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/spk-interactive.css">
+</head>
+<body data-page="home">
+  <div id="navbar"></div>
+
+  <main>
+    <section class="site-hero">
+      <img class="site-hero-image" src="assets/images/hero/hero-image.png" alt="Latihan Sistem Pengurusan Kualiti">
+      <div class="site-hero-overlay"></div>
+      <div class="container site-hero-content">
+        <span class="eyebrow">Portal Latihan Pensyarah Baharu</span>
+        <h1>SPK KV MIRI 2026</h1>
+        <p>Belajar dokumen kualiti dalaman secara interaktif, jawab kuiz, pantau kemajuan dan jana sijil digital selepas lulus penilaian akhir.</p>
+        <div class="hero-actions">
+          <a href="registration.html" class="btn btn-gradient" data-primary-start>Daftar Peserta</a>
+          <a href="dashboard.html" class="btn btn-outline light-outline">Lihat Dashboard</a>
+        </div>
+        <div class="hero-metrics" aria-label="Ringkasan portal">
+          <span><strong>5</strong> modul</span>
+          <span><strong data-final-total>50</strong> soalan akhir</span>
+          <span><strong data-pass-mark>80%</strong> lulus</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container intro-band">
+      <div>
+        <span class="eyebrow">Aliran Pembelajaran</span>
+        <h2>Lengkapkan modul mengikut turutan</h2>
+        <p>Setiap modul mempunyai nota ringkas, aktiviti interaktif dan kuiz. Penilaian akhir akan membuka kelayakan sijil.</p>
+      </div>
+      <div id="progressbar"></div>
+    </section>
+
+    <section class="modules">
+      <div class="container">
+        <div class="modules-header">
+          <span class="eyebrow">Modul</span>
+          <h2>Dokumen Kualiti Dalaman SPK</h2>
+          <p>Kandungan disusun berdasarkan PDF soalan kefahaman taklimat SPK pensyarah baharu.</p>
+        </div>
+        <div class="modules-grid" id="moduleGrid"></div>
+      </div>
+    </section>
+
+    <section class="container quick-actions">
+      <a class="action-tile" href="dashboard.html">
+        <strong>Dashboard</strong>
+        <span>Pantau kemajuan, XP dan aktiviti terkini.</span>
+      </a>
+      <a class="action-tile" href="modules/final-assessment.html">
+        <strong>Penilaian Akhir</strong>
+        <span>Jawab set soalan komprehensif.</span>
+      </a>
+      <a class="action-tile" href="certificate/certificate.html">
+        <strong>Sijil Digital</strong>
+        <span>Jana dan cetak selepas lulus.</span>
+      </a>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
+

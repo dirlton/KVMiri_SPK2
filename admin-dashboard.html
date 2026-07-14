@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Pentadbir | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/darkmode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/spk-interactive.css">
+</head>
+<body data-page="admin">
+  <div id="navbar"></div>
+
+  <main class="dashboard-page admin-page">
+    <section class="container dashboard-header">
+      <div>
+        <span class="eyebrow">Dashboard Pentadbir</span>
+        <h1>Analitik Latihan SPK</h1>
+        <p>Data dipaparkan daripada Google Sheet melalui Google Apps Script.</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-gradient" id="refreshAdminDashboard" type="button">Segar Semula</button>
+      </div>
+    </section>
+
+    <section class="container stats-grid">
+      <article class="card stat-card">
+        <h4>Jumlah Pengguna</h4>
+        <div class="stat-value" id="adminTotalUsers">0</div>
+        <p>Peserta berdaftar</p>
+      </article>
+      <article class="card stat-card">
+        <h4>Jumlah Kehadiran</h4>
+        <div class="stat-value" id="adminTotalAttendance">0</div>
+        <p>Rekod Sheet Kehadiran</p>
+      </article>
+      <article class="card stat-card">
+        <h4>Purata Markah</h4>
+        <div class="stat-value" id="adminAverageScore">0%</div>
+        <p>Purata peratus final</p>
+      </article>
+      <article class="card stat-card">
+        <h4>Lulus / Gagal</h4>
+        <div class="stat-value"><span id="adminPassed">0</span> / <span id="adminFailed">0</span></div>
+        <p>Status penilaian</p>
+      </article>
+    </section>
+
+    <section class="container grid grid-2">
+      <article class="card">
+        <h2>Carta Prestasi</h2>
+        <div class="performance-chart" id="adminPerformanceChart"></div>
+      </article>
+
+      <article class="card">
+        <h2>Carian No KP</h2>
+        <form id="adminSearchForm" novalidate>
+          <label for="adminSearchNoKp">No Kad Pengenalan</label>
+          <input id="adminSearchNoKp" name="noKp" inputmode="numeric" maxlength="12" autocomplete="off">
+          <div class="form-actions">
+            <button class="btn btn-primary" id="adminSearchButton" type="submit">Cari</button>
+          </div>
+        </form>
+        <div class="admin-search-result" id="adminSearchResult" aria-live="polite"></div>
+      </article>
+    </section>
+
+    <section class="container card">
+      <h2>Senarai Pengguna</h2>
+      <div class="table-scroll">
+        <table class="dashboard-table">
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>No KP</th>
+              <th>Unit</th>
+              <th>Markah</th>
+              <th>Status</th>
+              <th>Certificate ID</th>
+            </tr>
+          </thead>
+          <tbody id="adminUserRows">
+            <tr><td colspan="6">Memuatkan data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/admin-dashboard.js"></script>
+</body>
+</html>

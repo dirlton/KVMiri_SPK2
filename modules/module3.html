@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modul 3 | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/darkmode.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+  <link rel="stylesheet" href="../assets/css/module.css">
+  <link rel="stylesheet" href="../assets/css/cards.css">
+  <link rel="stylesheet" href="../assets/css/button.css">
+  <link rel="stylesheet" href="../assets/css/quiz.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/spk-interactive.css">
+</head>
+<body data-page="module" data-module-id="3">
+  <div id="navbar"></div>
+  <main class="module-shell">
+    <section class="module-cover">
+      <div class="container module-cover-grid">
+        <div>
+          <span class="eyebrow" id="moduleNumber">Modul</span>
+          <h1 id="moduleTitle">Modul SPK</h1>
+          <p id="moduleSummary"></p>
+          <div class="module-pills">
+            <span>Tempoh: <strong id="moduleDuration"></strong></span>
+            <span>XP: <strong id="moduleXP"></strong></span>
+            <span>Lencana: <strong id="moduleBadge"></strong></span>
+          </div>
+        </div>
+        <aside class="module-objective-card">
+          <h2>Hasil Pembelajaran</h2>
+          <ul id="moduleObjectives"></ul>
+        </aside>
+      </div>
+    </section>
+    <section class="container"><div id="progressbar"></div></section>
+    <section class="container">
+      <div class="section-heading"><span class="eyebrow">Nota Ringkas</span><h2 id="moduleSubtitle">Kandungan Modul</h2></div>
+      <div class="lesson-grid" id="moduleSections"></div>
+    </section>
+    <section class="container">
+      <div class="section-heading"><span class="eyebrow">Aktiviti</span><h2>Aktiviti Interaktif</h2></div>
+      <div class="activity-grid" id="moduleActivities"></div>
+    </section>
+    <section class="container quiz-shell" data-quiz="module3"></section>
+    <section class="container completion-panel">
+      <h2>Tamat Modul</h2>
+      <p id="moduleStatus">Jawab kuiz, kemudian tandakan modul ini sebagai selesai.</p>
+      <button class="btn btn-gradient" type="button" id="completeModule">Tandakan Modul Selesai</button>
+      <a class="btn btn-outline" id="nextModuleLink" href="module4.html">Modul Seterusnya</a>
+    </section>
+  </main>
+  <div id="footer"></div>
+  <script src="../assets/js/config.js"></script>
+  <script src="../assets/js/storage.js"></script>
+  <script src="../assets/js/ui.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/quiz.js"></script>
+</body>
+</html>
+

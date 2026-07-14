@@ -1,0 +1,1164 @@
+{
+  "passingScore": 80,
+  "quizzes": {
+    "module1": {
+      "title": "Kuiz Modul 1",
+      "description": "Uji kefahaman asas tentang SPK dan Manual Kualiti.",
+      "questions": [
+        {
+          "id": "m1q1",
+          "type": "single",
+          "question": "Apakah maksud SPK?",
+          "options": [
+            "Sistem Pengurusan Kualiti",
+            "Sistem Pengurusan Kolej",
+            "Standard Pensyarah KV",
+            "Sistem Pengurusan Kelas"
+          ],
+          "answer": [
+            "Sistem Pengurusan Kualiti"
+          ],
+          "feedback": "SPK ialah Sistem Pengurusan Kualiti."
+        },
+        {
+          "id": "m1q2",
+          "type": "single",
+          "question": "Antara kepentingan utama SPK ialah membantu pematuhan akreditasi program seperti MQA dan MBOT.",
+          "options": [
+            "Ya",
+            "Tidak"
+          ],
+          "answer": [
+            "Ya"
+          ],
+          "feedback": "SPK membantu organisasi mematuhi keperluan standard dan akreditasi."
+        },
+        {
+          "id": "m1q3",
+          "type": "multiple",
+          "question": "Manual Kualiti disediakan bagi tujuan berikut. Pilih dua jawapan.",
+          "options": [
+            "Menjelaskan maklumat organisasi seperti perkhidmatan, pelanggan, visi, misi dan lokasi",
+            "Menggantikan semua prosedur kerja harian",
+            "Menjelaskan dasar dan prinsip aktiviti dalam pengurusan sistem perkhidmatan pendidikan",
+            "Menyimpan markah pelajar sahaja"
+          ],
+          "answer": [
+            "Menjelaskan maklumat organisasi seperti perkhidmatan, pelanggan, visi, misi dan lokasi",
+            "Menjelaskan dasar dan prinsip aktiviti dalam pengurusan sistem perkhidmatan pendidikan"
+          ],
+          "feedback": "Manual Kualiti menerangkan maklumat organisasi serta dasar dan prinsip pelaksanaan SPK."
+        },
+        {
+          "id": "m1q4",
+          "type": "single",
+          "question": "Apakah budaya kerja yang digalakkan oleh SPK?",
+          "options": [
+            "Kerja tanpa rekod",
+            "Penambahbaikan berterusan",
+            "Audit sahaja tanpa tindakan",
+            "Tugasan tanpa rujukan dokumen"
+          ],
+          "answer": [
+            "Penambahbaikan berterusan"
+          ],
+          "feedback": "SPK menekankan konsistensi proses dan penambahbaikan berterusan."
+        },
+        {
+          "id": "m1q5",
+          "type": "single",
+          "question": "Siapakah yang terlibat dalam pelaksanaan SPK di kolej?",
+          "options": [
+            "Pengarah sahaja",
+            "Pensyarah baharu sahaja",
+            "Semua warga organisasi",
+            "Juruaudit sahaja"
+          ],
+          "answer": [
+            "Semua warga organisasi"
+          ],
+          "feedback": "SPK memerlukan penglibatan semua warga organisasi."
+        }
+      ]
+    },
+    "module2": {
+      "title": "Kuiz Modul 2",
+      "description": "Fokus kepada Prosedur Teras Akademik dan PdPc.",
+      "questions": [
+        {
+          "id": "m2q1",
+          "type": "single",
+          "question": "Dokumen KVKPM-PK-TA merujuk kepada kategori prosedur apa?",
+          "options": [
+            "Prosedur Teras Akademik",
+            "Prosedur Pengurusan Sokongan Akademik",
+            "Prosedur Pengurusan Umum",
+            "Manual Kualiti"
+          ],
+          "answer": [
+            "Prosedur Teras Akademik"
+          ],
+          "feedback": "TA ialah kod bagi Prosedur Teras Akademik."
+        },
+        {
+          "id": "m2q2",
+          "type": "single",
+          "question": "KVKPM-PK-TA-03 ialah dokumen berkaitan...",
+          "options": [
+            "Pengurusan Pentaksiran dan Penilaian",
+            "Penyediaan Jadual Waktu PdPc",
+            "Pembelajaran dan Pemudahcaraan (PdPc)",
+            "Pencerapan PdPc"
+          ],
+          "answer": [
+            "Pembelajaran dan Pemudahcaraan (PdPc)"
+          ],
+          "feedback": "TA-03 merujuk kepada Prosedur Pembelajaran dan Pemudahcaraan."
+        },
+        {
+          "id": "m2q3",
+          "type": "single",
+          "question": "Apakah maksud FPP dalam konteks dokumen PdPc?",
+          "options": [
+            "Fail Portfolio Pensyarah",
+            "Fail Portfolio Pengarah",
+            "Fail Portfolio Penyelia Asrama",
+            "Fail Pentaksiran Pelajar"
+          ],
+          "answer": [
+            "Fail Portfolio Pensyarah"
+          ],
+          "feedback": "FPP ialah Fail Portfolio Pensyarah."
+        },
+        {
+          "id": "m2q4",
+          "type": "single",
+          "question": "Pensyarah perlu merekodkan kehadiran pelajar dalam dokumen berikut.",
+          "options": [
+            "Buku Peraturan Akademik",
+            "Borang Rekod Kehadiran Pelajar BKT-03-02",
+            "Borang Pengesahan Portfolio Pengajaran",
+            "Struktur Program"
+          ],
+          "answer": [
+            "Borang Rekod Kehadiran Pelajar BKT-03-02"
+          ],
+          "feedback": "Rekod kehadiran pelajar perlu dikemaskini semasa PdPc."
+        },
+        {
+          "id": "m2q5",
+          "type": "single",
+          "question": "Exit Survey dilaksanakan pada minggu ke...",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "answer": [
+            "14"
+          ],
+          "feedback": "Berdasarkan set soalan, Exit Survey dilaksanakan pada minggu ke-14."
+        }
+      ]
+    },
+    "module3": {
+      "title": "Kuiz Modul 3",
+      "description": "Pentaksiran, kehadiran, intervensi dan CQI.",
+      "questions": [
+        {
+          "id": "m3q1",
+          "type": "single",
+          "question": "Siapakah yang bertanggungjawab menyediakan Jadual Spesifikasi Pentaksiran Berterusan?",
+          "options": [
+            "TPA",
+            "Pensyarah",
+            "KP",
+            "KJPP"
+          ],
+          "answer": [
+            "Pensyarah"
+          ],
+          "feedback": "Dalam konteks soalan latihan, tanggungjawab ini dikaitkan dengan pensyarah."
+        },
+        {
+          "id": "m3q2",
+          "type": "single",
+          "question": "Berikut ialah tanggungjawab pensyarah, kecuali...",
+          "options": [
+            "Mengambil skrip jawapan daripada KUPP",
+            "Memeriksa skrip jawapan calon",
+            "Melaksanakan moderasi atau penyelarasan",
+            "Mempengerusikan mesyuarat Jawatankuasa Akademik Kolej untuk menentusahkan markah keseluruhan"
+          ],
+          "answer": [
+            "Mempengerusikan mesyuarat Jawatankuasa Akademik Kolej untuk menentusahkan markah keseluruhan"
+          ],
+          "feedback": "Pilihan itu bukan tanggungjawab biasa pensyarah."
+        },
+        {
+          "id": "m3q3",
+          "type": "single",
+          "question": "Kehadiran kurang daripada 80 peratus tanpa sebab munasabah boleh menyebabkan pelajar...",
+          "options": [
+            "Diberi amaran tatatertib sahaja",
+            "Mengambil kertas ulangan sahaja",
+            "Tidak dibenarkan menduduki Penilaian Akhir",
+            "Dibenarkan terus tanpa tindakan"
+          ],
+          "answer": [
+            "Tidak dibenarkan menduduki Penilaian Akhir"
+          ],
+          "feedback": "Kehadiran ialah syarat penting untuk kelayakan menduduki Penilaian Akhir."
+        },
+        {
+          "id": "m3q4",
+          "type": "single",
+          "question": "Siapakah yang merekod kehadiran pelajar dan melaporkan ketidakhadiran kepada JK Intervensi apabila perlu?",
+          "options": [
+            "KJK",
+            "TPA",
+            "TPSA",
+            "Pensyarah"
+          ],
+          "answer": [
+            "Pensyarah"
+          ],
+          "feedback": "Pensyarah bertanggungjawab merekod dan melaporkan kehadiran pelajar."
+        },
+        {
+          "id": "m3q5",
+          "type": "multiple",
+          "question": "Dokumen KVKPM-PK-TA-12 berkait dengan perkara berikut. Pilih dua jawapan.",
+          "options": [
+            "Penambahbaikan Berterusan (CQI)",
+            "Kawalan Dokumen Kualiti",
+            "Closing The Loop (CTL)",
+            "Pencerapan PdPc"
+          ],
+          "answer": [
+            "Penambahbaikan Berterusan (CQI)",
+            "Closing The Loop (CTL)"
+          ],
+          "feedback": "TA-12 dikaitkan dengan CQI dan Closing The Loop."
+        }
+      ]
+    },
+    "module4": {
+      "title": "Kuiz Modul 4",
+      "description": "Sokongan akademik, pendaftaran dan aduan pelanggan.",
+      "questions": [
+        {
+          "id": "m4q1",
+          "type": "single",
+          "question": "Dokumen KVPM-PK-SA-01 menggariskan tindakan mengurus pendaftaran pelajar baharu diploma.",
+          "options": [
+            "Benar",
+            "Salah"
+          ],
+          "answer": [
+            "Benar"
+          ],
+          "feedback": "SA-01 berkaitan pengurusan pendaftaran pelajar baharu diploma."
+        },
+        {
+          "id": "m4q2",
+          "type": "single",
+          "question": "Prosedur yang memberi panduan pendaftaran masuk pelajar diploma dari KV lain dan pertukaran keluar pelajar ialah...",
+          "options": [
+            "KVKPM-PK-SA-02",
+            "KVKPM-PK-SA-01",
+            "KVKPM-PK-PU-02",
+            "KVKPM-PK-TA-03"
+          ],
+          "answer": [
+            "KVKPM-PK-SA-02"
+          ],
+          "feedback": "SA-02 berkaitan pertukaran masuk dan keluar pelajar diploma."
+        },
+        {
+          "id": "m4q3",
+          "type": "single",
+          "question": "Dalam prosedur aduan dan maklum balas pelanggan, pihak KV mengambil tindakan dalam masa...",
+          "options": [
+            "2 minggu",
+            "2 jam",
+            "1 minggu",
+            "1 bulan"
+          ],
+          "answer": [
+            "2 minggu"
+          ],
+          "feedback": "Set soalan merujuk tempoh tindakan 2 minggu."
+        },
+        {
+          "id": "m4q4",
+          "type": "single",
+          "question": "Kod SA dalam dokumen kualiti merujuk kepada...",
+          "options": [
+            "Sokongan Akademik",
+            "Semakan Audit",
+            "Sijil Akademik",
+            "Sistem Am"
+          ],
+          "answer": [
+            "Sokongan Akademik"
+          ],
+          "feedback": "SA digunakan untuk Prosedur Pengurusan Sokongan Akademik."
+        },
+        {
+          "id": "m4q5",
+          "type": "single",
+          "question": "Mengapakah aduan pelanggan perlu direkod dan ditindak?",
+          "options": [
+            "Untuk mengelak bukti",
+            "Untuk mengekalkan kualiti perkhidmatan",
+            "Untuk menggantikan PdPc",
+            "Untuk memadam rekod lama"
+          ],
+          "answer": [
+            "Untuk mengekalkan kualiti perkhidmatan"
+          ],
+          "feedback": "Aduan dan maklum balas ialah input penting kepada kualiti perkhidmatan."
+        }
+      ]
+    },
+    "module5": {
+      "title": "Kuiz Modul 5",
+      "description": "Pengurusan umum, audit dalaman dan latihan staf.",
+      "questions": [
+        {
+          "id": "m5q1",
+          "type": "single",
+          "question": "'PU' pada nama dokumen kualiti merujuk kepada...",
+          "options": [
+            "Pengurusan Umum",
+            "Pendidikan Umum",
+            "Pengurusan Unit",
+            "Pelaksanaan Utama"
+          ],
+          "answer": [
+            "Pengurusan Umum"
+          ],
+          "feedback": "PU ialah Prosedur Pengurusan Umum."
+        },
+        {
+          "id": "m5q2",
+          "type": "single",
+          "question": "Format kertas kerja boleh dirujuk pada dokumen...",
+          "options": [
+            "KVKPM-PK-PU-02 Perancangan dan Pengurusan Latihan Staf",
+            "KVKPM-PK-PU-03 Mesyuarat Kajian Semula Pengurusan",
+            "KVKPM-PK-PU-04 Pengendalian Semakan Dalaman",
+            "KVKPM-PK-TA-12 CQI"
+          ],
+          "answer": [
+            "KVKPM-PK-PU-02 Perancangan dan Pengurusan Latihan Staf"
+          ],
+          "feedback": "PU-02 digunakan sebagai rujukan perancangan dan pengurusan latihan staf."
+        },
+        {
+          "id": "m5q3",
+          "type": "single",
+          "question": "Dalam prosedur audit pelaksanaan SPK, siapakah yang merancang dan menyediakan penjadualan audit sepanjang tahun?",
+          "options": [
+            "KA",
+            "AD",
+            "AT",
+            "PQ"
+          ],
+          "answer": [
+            "KA"
+          ],
+          "feedback": "KA merancang dan menyediakan jadual audit."
+        },
+        {
+          "id": "m5q4",
+          "type": "single",
+          "question": "Prosedur latihan staf bertujuan supaya pensyarah dan AKP menghadiri latihan sekurang-kurangnya...",
+          "options": [
+            "3 hari setahun",
+            "5 hari setahun",
+            "7 hari setahun",
+            "14 hari setahun"
+          ],
+          "answer": [
+            "7 hari setahun"
+          ],
+          "feedback": "Set soalan menyebut sekurang-kurangnya 7 hari dalam setahun."
+        },
+        {
+          "id": "m5q5",
+          "type": "single",
+          "question": "Apakah tujuan audit dalaman SPK?",
+          "options": [
+            "Menyemak pematuhan prosedur dan bukti pelaksanaan",
+            "Menghapuskan semua rekod",
+            "Menggantikan latihan staf",
+            "Meluluskan cuti staf"
+          ],
+          "answer": [
+            "Menyemak pematuhan prosedur dan bukti pelaksanaan"
+          ],
+          "feedback": "Audit dalaman membantu menilai pematuhan dan ruang penambahbaikan."
+        }
+      ]
+    },
+    "final": {
+      "title": "Final Assessment SPK 2025",
+      "description": "Set 50 soalan baharu berdasarkan dokumen SPK 2025. Soalan dan pilihan jawapan dirandomkan secara automatik.",
+      "questions": [
+        {
+          "id": "f2026_001",
+          "type": "single",
+          "question": "Apakah fungsi utama Manual Sistem Pengurusan Kualiti dalam SPK Kolej Vokasional KPM?",
+          "options": [
+            "Menjadi sumber rujukan skop pendaftaran, dasar kualiti, objektif kualiti dan penerangan ringkas SPK",
+            "Menggantikan semua prosedur operasi kolej tanpa semakan",
+            "Merekod kehadiran pelajar harian sahaja",
+            "Menentukan jadual waktu setiap pensyarah secara automatik"
+          ],
+          "answer": [
+            "Menjadi sumber rujukan skop pendaftaran, dasar kualiti, objektif kualiti dan penerangan ringkas SPK"
+          ],
+          "feedback": "Manual Kualiti ialah rujukan utama yang menerangkan skop, dasar, objektif dan penerangan SPK."
+        },
+        {
+          "id": "f2026_002",
+          "type": "single",
+          "question": "Maklumat organisasi yang diterangkan dalam Manual Kualiti merangkumi perkara berikut, kecuali...",
+          "options": [
+            "Perkhidmatan yang diberi",
+            "Pelanggan organisasi",
+            "Visi, misi dan lokasi",
+            "Kata laluan sistem pentadbiran"
+          ],
+          "answer": [
+            "Kata laluan sistem pentadbiran"
+          ],
+          "feedback": "Manual Kualiti menerangkan maklumat organisasi, bukan maklumat rahsia sistem."
+        },
+        {
+          "id": "f2026_003",
+          "type": "single",
+          "question": "Bilakah Manual Kualiti dan prosedur kualiti dianggap terpakai serta berkuat kuasa?",
+          "options": [
+            "Selepas diluluskan oleh Pengarah Kolej Vokasional",
+            "Selepas dicetak oleh mana-mana staf",
+            "Selepas dikongsi melalui aplikasi pesanan",
+            "Selepas disimpan dalam komputer peribadi"
+          ],
+          "answer": [
+            "Selepas diluluskan oleh Pengarah Kolej Vokasional"
+          ],
+          "feedback": "Dokumen terkawal hanya sah dirujuk apabila telah diluluskan oleh Pengarah."
+        },
+        {
+          "id": "f2026_004",
+          "type": "single",
+          "question": "Apakah status dokumen kualiti yang dicetak sendiri tanpa kawalan edaran rasmi?",
+          "options": [
+            "Dokumen tidak terkawal",
+            "Dokumen induk",
+            "Dokumen rahsia",
+            "Dokumen audit muktamad"
+          ],
+          "answer": [
+            "Dokumen tidak terkawal"
+          ],
+          "feedback": "Mana-mana dokumen yang dicetak dianggap tidak terkawal kecuali melalui kawalan edaran yang sah."
+        },
+        {
+          "id": "f2026_005",
+          "type": "single",
+          "question": "Mengapakah rekod kualiti perlu dikawal dalam pelaksanaan SPK?",
+          "options": [
+            "Untuk membuktikan keberkesanan SPK dan kepatuhan terhadap prosedur yang ditetapkan",
+            "Untuk menghapuskan rekod lama tanpa kelulusan",
+            "Untuk mengehadkan akses kepada semua warga kolej",
+            "Untuk menggantikan proses semakan pengurusan"
+          ],
+          "answer": [
+            "Untuk membuktikan keberkesanan SPK dan kepatuhan terhadap prosedur yang ditetapkan"
+          ],
+          "feedback": "Rekod kualiti menjadi bukti pelaksanaan, pematuhan dan keberkesanan sistem."
+        },
+        {
+          "id": "f2026_006",
+          "type": "single",
+          "question": "Pindaan Manual Kualiti hanya boleh dikuatkuasakan selepas...",
+          "options": [
+            "Disemak dan diluluskan oleh Pengarah Kolej Vokasional",
+            "Diumumkan dalam kumpulan sosial tidak rasmi",
+            "Dimaklumkan secara lisan kepada seorang pensyarah",
+            "Dihantar sebagai fail sementara tanpa rekod pindaan"
+          ],
+          "answer": [
+            "Disemak dan diluluskan oleh Pengarah Kolej Vokasional"
+          ],
+          "feedback": "Pindaan Manual Kualiti perlu melalui semakan, kelulusan dan rekod pindaan."
+        },
+        {
+          "id": "f2026_007",
+          "type": "single",
+          "question": "Dalam Manual Kualiti, Sistem Pengurusan Kualiti ditakrifkan sebagai sistem untuk...",
+          "options": [
+            "Membangunkan dasar kualiti, objektif kualiti dan kaedah pencapaiannya",
+            "Menyediakan jadual peperiksaan semata-mata",
+            "Mengira markah pelajar secara automatik",
+            "Menyimpan gambar aktiviti kolej sahaja"
+          ],
+          "answer": [
+            "Membangunkan dasar kualiti, objektif kualiti dan kaedah pencapaiannya"
+          ],
+          "feedback": "SPK ialah sistem yang menerangkan bagaimana pengurusan berkualiti dilaksanakan dengan efisien dan efektif."
+        },
+        {
+          "id": "f2026_008",
+          "type": "single",
+          "question": "Objektif Kualiti Kecemerlangan Staf menetapkan bahawa setiap staf perlu menghadiri kursus, latihan atau bengkel sekurang-kurangnya...",
+          "options": [
+            "7 hari setahun",
+            "3 jam setahun",
+            "1 hari setiap lima tahun",
+            "14 minggu setahun"
+          ],
+          "answer": [
+            "7 hari setahun"
+          ],
+          "feedback": "Objektif Kualiti menetapkan sasaran latihan staf sekurang-kurangnya 7 hari setahun."
+        },
+        {
+          "id": "f2026_009",
+          "type": "single",
+          "question": "Apakah objektif Prosedur Kawalan Dokumen Kualiti KVKPM-PK-PU-01?",
+          "options": [
+            "Memastikan dokumen SPK digunakan mengikut kaedah yang ditetapkan",
+            "Mengurus pengambilan pelajar diploma",
+            "Mengurus penangguhan pengajian pelajar",
+            "Menyediakan laporan Projek Tahun Akhir"
+          ],
+          "answer": [
+            "Memastikan dokumen SPK digunakan mengikut kaedah yang ditetapkan"
+          ],
+          "feedback": "PU-01 mengawal penyediaan, penggunaan, pengedaran dan pelupusan dokumen kualiti."
+        },
+        {
+          "id": "f2026_010",
+          "type": "single",
+          "question": "Skop KVKPM-PK-PU-01 bermula daripada proses penyediaan dokumen SPK hingga kepada...",
+          "options": [
+            "Proses pelupusan dokumen berkenaan",
+            "Proses pendaftaran kursus pelajar",
+            "Proses pencerapan PdP",
+            "Proses penyediaan sijil pelajar"
+          ],
+          "answer": [
+            "Proses pelupusan dokumen berkenaan"
+          ],
+          "feedback": "Skop PU-01 meliputi kitaran dokumen daripada penyediaan hingga pelupusan."
+        },
+        {
+          "id": "f2026_011",
+          "type": "single",
+          "question": "Peranan Pengurus Dokumen dalam PU-01 ialah...",
+          "options": [
+            "Mencetak, mengawal, memantau, mengedar dan melupus dokumen SPK",
+            "Menentukan markah akhir semua pelajar",
+            "Membuat keputusan penangguhan pengajian tanpa mesyuarat",
+            "Menjalankan pencerapan semua pensyarah setiap hari"
+          ],
+          "answer": [
+            "Mencetak, mengawal, memantau, mengedar dan melupus dokumen SPK"
+          ],
+          "feedback": "Pengurus Dokumen bertanggungjawab terhadap kawalan dokumen yang digunakan dalam SPK."
+        },
+        {
+          "id": "f2026_012",
+          "type": "single",
+          "question": "Apakah maksud Senarai Induk Dokumen Kualiti?",
+          "options": [
+            "Senarai jenis dokumen yang digunakan dan dirujuk dalam SPK",
+            "Senarai pelajar yang layak bergraduat",
+            "Senarai kehadiran harian pensyarah",
+            "Senarai markah penilaian akhir sahaja"
+          ],
+          "answer": [
+            "Senarai jenis dokumen yang digunakan dan dirujuk dalam SPK"
+          ],
+          "feedback": "Senarai Induk membantu kawalan dan rujukan dokumen kualiti secara sistematik."
+        },
+        {
+          "id": "f2026_013",
+          "type": "single",
+          "question": "Dokumen Sokongan Luaran dalam PU-01 merujuk kepada dokumen seperti...",
+          "options": [
+            "Surat pekeliling kerajaan, akta, arahan perbendaharaan dan peraturan",
+            "Nota peribadi pensyarah yang belum disahkan",
+            "Mesej tidak rasmi dalam aplikasi sosial",
+            "Draf borang tanpa nombor kawalan"
+          ],
+          "answer": [
+            "Surat pekeliling kerajaan, akta, arahan perbendaharaan dan peraturan"
+          ],
+          "feedback": "Dokumen Sokongan Luaran ialah dokumen rujukan rasmi daripada pihak luar."
+        },
+        {
+          "id": "f2026_014",
+          "type": "single",
+          "question": "Prosedur KVKPM-PK-PU-02 memberi panduan utama tentang...",
+          "options": [
+            "Perancangan, pengurusan dan pelaksanaan latihan staf",
+            "Pendaftaran kursus program diploma",
+            "Pengurusan aduan pelanggan sahaja",
+            "Pindaan reka bentuk sijil digital"
+          ],
+          "answer": [
+            "Perancangan, pengurusan dan pelaksanaan latihan staf"
+          ],
+          "feedback": "PU-02 ialah prosedur perancangan dan pengurusan latihan staf."
+        },
+        {
+          "id": "f2026_015",
+          "type": "single",
+          "question": "Skop latihan dalam KVKPM-PK-PU-02 meliputi...",
+          "options": [
+            "Latihan dalaman dan latihan luaran untuk pensyarah serta anggota kumpulan pelaksana",
+            "Latihan pelajar tahun akhir sahaja",
+            "Latihan industri pelajar diploma sahaja",
+            "Latihan penggunaan sijil digital sahaja"
+          ],
+          "answer": [
+            "Latihan dalaman dan latihan luaran untuk pensyarah serta anggota kumpulan pelaksana"
+          ],
+          "feedback": "PU-02 meliputi pengenalpastian keperluan, perancangan, pelaksanaan dan tatacara latihan dalaman serta luaran."
+        },
+        {
+          "id": "f2026_016",
+          "type": "single",
+          "question": "Tujuan Mesyuarat Kajian Semula Pengurusan KVKPM-PK-PU-03 adalah untuk...",
+          "options": [
+            "Mengkaji kesesuaian, kecukupan dan keberkesanan pelaksanaan SPK",
+            "Menggantikan semua audit pelaksanaan SPK",
+            "Menentukan cuti tahunan staf",
+            "Menyediakan jadual peperiksaan mingguan"
+          ],
+          "answer": [
+            "Mengkaji kesesuaian, kecukupan dan keberkesanan pelaksanaan SPK"
+          ],
+          "feedback": "MKSP menilai prestasi SPK dan membincangkan peluang penambahbaikan."
+        },
+        {
+          "id": "f2026_017",
+          "type": "single",
+          "question": "Kekerapan dan pengerusi Mesyuarat Kajian Semula Pengurusan yang betul ialah...",
+          "options": [
+            "Dijalankan satu kali setahun dan dipengerusikan oleh Pengarah",
+            "Dijalankan setiap minggu dan dipengerusikan oleh pelajar",
+            "Dijalankan apabila ada aduan sahaja dan dipengerusikan oleh auditor",
+            "Dijalankan setiap hari dan dipengerusikan oleh penyelaras jadual waktu"
+          ],
+          "answer": [
+            "Dijalankan satu kali setahun dan dipengerusikan oleh Pengarah"
+          ],
+          "feedback": "MKSP dirancang setahun sekali dan Pengarah mempengerusikan mesyuarat."
+        },
+        {
+          "id": "f2026_018",
+          "type": "single",
+          "question": "Dalam persediaan MKSP, laporan yang diminta daripada jawatankuasa perlu dihantar sekurang-kurangnya...",
+          "options": [
+            "3 hari sebelum MKSP",
+            "3 bulan selepas MKSP",
+            "14 hari selepas audit sahaja",
+            "Pada hari terakhir tahun kewangan"
+          ],
+          "answer": [
+            "3 hari sebelum MKSP"
+          ],
+          "feedback": "Laporan berkaitan MKSP perlu dihantar lebih awal supaya dapat dikumpul dan dibentangkan."
+        },
+        {
+          "id": "f2026_019",
+          "type": "single",
+          "question": "Objektif audit pelaksanaan SPK KVKPM-PK-PU-04 ialah memastikan...",
+          "options": [
+            "Aktiviti SPK diaudit seperti dirancang dan sistem berfungsi dengan berkesan",
+            "Semua dokumen dicetak tanpa kawalan",
+            "Pelajar menukar program tanpa kelulusan",
+            "Pencerapan PdP digugurkan daripada prosedur"
+          ],
+          "answer": [
+            "Aktiviti SPK diaudit seperti dirancang dan sistem berfungsi dengan berkesan"
+          ],
+          "feedback": "Audit pelaksanaan SPK mengesahkan pematuhan, keberkesanan dan ruang penambahbaikan."
+        },
+        {
+          "id": "f2026_020",
+          "type": "single",
+          "question": "Prinsip penting bagi Auditor dalam audit pelaksanaan SPK ialah...",
+          "options": [
+            "Tidak mengaudit kerja sendiri",
+            "Mengaudit hanya berdasarkan andaian",
+            "Mengabaikan bukti audit",
+            "Menyimpan dapatan tanpa laporan"
+          ],
+          "answer": [
+            "Tidak mengaudit kerja sendiri"
+          ],
+          "feedback": "Kebebasan auditor penting untuk memastikan audit yang objektif."
+        },
+        {
+          "id": "f2026_021",
+          "type": "single",
+          "question": "Auditee dalam audit pelaksanaan SPK merujuk kepada...",
+          "options": [
+            "Pemilik proses yang diaudit dan bertanggungjawab terhadap tindakan pembetulan serta penambahbaikan",
+            "Pelajar yang menduduki penilaian akhir",
+            "Penyelaras jadual waktu sahaja",
+            "Pihak luar yang tidak terlibat dalam proses"
+          ],
+          "answer": [
+            "Pemilik proses yang diaudit dan bertanggungjawab terhadap tindakan pembetulan serta penambahbaikan"
+          ],
+          "feedback": "Auditee ialah pihak proses yang diaudit dan perlu mengambil tindakan terhadap dapatan."
+        },
+        {
+          "id": "f2026_022",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-SA-01 adalah untuk memberi panduan dalam...",
+          "options": [
+            "Mengurus pendaftaran pelajar baharu pengajian diploma dengan berkesan",
+            "Mengurus audit pelaksanaan SPK",
+            "Menyediakan laporan latihan staf",
+            "Menentukan semakan kurikulum lima tahun"
+          ],
+          "answer": [
+            "Mengurus pendaftaran pelajar baharu pengajian diploma dengan berkesan"
+          ],
+          "feedback": "SA-01 berfokus kepada pendaftaran pelajar baharu diploma."
+        },
+        {
+          "id": "f2026_023",
+          "type": "single",
+          "question": "Dalam proses SA-01, pihak yang menghantar laporan pendaftaran pelajar baharu Diploma ke BPLTV ialah...",
+          "options": [
+            "TPSA",
+            "Penyelaras OJT",
+            "Auditee",
+            "Setiausaha MKSP"
+          ],
+          "answer": [
+            "TPSA"
+          ],
+          "feedback": "TPSA bertanggungjawab menghantar laporan pendaftaran kepada BPLTV."
+        },
+        {
+          "id": "f2026_024",
+          "type": "single",
+          "question": "Prosedur KVKPM-PK-SA-02 memberi panduan tentang...",
+          "options": [
+            "Pendaftaran masuk pelajar diploma dari KV lain dan pertukaran keluar pelajar diploma",
+            "Pencerapan pensyarah berdasarkan SKPMg2",
+            "Pengurusan penangguhan pengajian sahaja",
+            "Pembangunan program baharu"
+          ],
+          "answer": [
+            "Pendaftaran masuk pelajar diploma dari KV lain dan pertukaran keluar pelajar diploma"
+          ],
+          "feedback": "SA-02 mengurus pertukaran masuk dan keluar pelajar diploma antara kolej vokasional."
+        },
+        {
+          "id": "f2026_025",
+          "type": "single",
+          "question": "Dalam SA-02, pelajar tidak dibenarkan bertukar tempat pengajian selepas...",
+          "options": [
+            "Minggu kelapan pengajian kecuali kes khas dengan kebenaran BPLTV",
+            "Minggu pertama tanpa sebarang pengecualian",
+            "Hari pendaftaran sahaja",
+            "Setelah tamat semua kursus sahaja"
+          ],
+          "answer": [
+            "Minggu kelapan pengajian kecuali kes khas dengan kebenaran BPLTV"
+          ],
+          "feedback": "Pertukaran selepas minggu kelapan tidak dibenarkan kecuali kes tertentu yang mendapat kebenaran khas."
+        },
+        {
+          "id": "f2026_026",
+          "type": "single",
+          "question": "Tujuan utama KVKPM-PK-SA-03 ialah...",
+          "options": [
+            "Memastikan aduan dan maklum balas pelanggan diurus supaya penambahbaikan SPK dapat dilaksanakan",
+            "Menentukan jadual waktu kelas diploma",
+            "Merekod markah penilaian akhir peserta latihan",
+            "Mengeluarkan sijil penyertaan automatik"
+          ],
+          "answer": [
+            "Memastikan aduan dan maklum balas pelanggan diurus supaya penambahbaikan SPK dapat dilaksanakan"
+          ],
+          "feedback": "Aduan dan maklum balas pelanggan ialah input penting kepada penambahbaikan SPK."
+        },
+        {
+          "id": "f2026_027",
+          "type": "single",
+          "question": "Tempoh memaklumkan kepada pengadu menggunakan BKS-03-03 dalam prosedur aduan ialah...",
+          "options": [
+            "14 hari bekerja",
+            "24 jam tanpa semakan",
+            "3 bulan selepas siasatan",
+            "Setahun sekali dalam MKSP"
+          ],
+          "answer": [
+            "14 hari bekerja"
+          ],
+          "feedback": "Pengurus Aduan perlu memaklumkan kepada pengadu dalam tempoh 14 hari bekerja."
+        },
+        {
+          "id": "f2026_028",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-01 adalah memastikan...",
+          "options": [
+            "Perancangan Takwim Tahunan Kolej disediakan dan diedarkan kepada semua pensyarah serta AKP",
+            "Latihan industri dilaksanakan di organisasi luar sahaja",
+            "Semakan skrip jawapan disiapkan oleh ibu bapa",
+            "Pindaan manual dibuat tanpa kelulusan"
+          ],
+          "answer": [
+            "Perancangan Takwim Tahunan Kolej disediakan dan diedarkan kepada semua pensyarah serta AKP"
+          ],
+          "feedback": "TA-01 mengawal penyediaan dan pengedaran takwim tahunan kolej."
+        },
+        {
+          "id": "f2026_029",
+          "type": "single",
+          "question": "Dalam TA-01, Pengarah bertanggungjawab melantik...",
+          "options": [
+            "Penyelaras Takwim Tahunan KV",
+            "Penyelia Organisasi OJT",
+            "Pelajar diploma baharu",
+            "Pengadu pelanggan"
+          ],
+          "answer": [
+            "Penyelaras Takwim Tahunan KV"
+          ],
+          "feedback": "Pengarah melantik penyelaras untuk menyelaras perancangan takwim aktiviti tahunan kolej."
+        },
+        {
+          "id": "f2026_030",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-02 ialah memastikan jadual waktu PdP...",
+          "options": [
+            "Disiapkan sebelum sesi pengajian semester bermula",
+            "Disiapkan selepas peperiksaan akhir",
+            "Disediakan hanya jika terdapat aduan",
+            "Dikeluarkan oleh pelajar secara bebas"
+          ],
+          "answer": [
+            "Disiapkan sebelum sesi pengajian semester bermula"
+          ],
+          "feedback": "TA-02 memastikan jadual waktu tersedia sebelum semester bermula."
+        },
+        {
+          "id": "f2026_031",
+          "type": "single",
+          "question": "Kurikulum Standard Kolej Vokasional (KSKV) menekankan aspek...",
+          "options": [
+            "Pengetahuan, kemahiran dan nilai untuk kebolehkerjaan, kebolehpasaran dan keusahawanan",
+            "Pengumpulan sijil tanpa pembelajaran",
+            "Penyimpanan aduan tanpa tindakan",
+            "Pengurangan bukti pelaksanaan SPK"
+          ],
+          "answer": [
+            "Pengetahuan, kemahiran dan nilai untuk kebolehkerjaan, kebolehpasaran dan keusahawanan"
+          ],
+          "feedback": "KSKV dirujuk kepada keperluan industri dan panel pakar akademik."
+        },
+        {
+          "id": "f2026_032",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-03 ialah memastikan pensyarah mengambil tindakan yang perlu...",
+          "options": [
+            "Sebelum, semasa dan selepas mengajar supaya PdP lancar dan berkesan",
+            "Hanya selepas penilaian akhir selesai",
+            "Hanya ketika audit luaran berlangsung",
+            "Tanpa merujuk dokumen kurikulum"
+          ],
+          "answer": [
+            "Sebelum, semasa dan selepas mengajar supaya PdP lancar dan berkesan"
+          ],
+          "feedback": "TA-03 ialah prosedur proses pengajaran dan pembelajaran."
+        },
+        {
+          "id": "f2026_033",
+          "type": "single",
+          "question": "Course Outline (CO) dalam TA-03 merujuk kepada...",
+          "options": [
+            "Perancangan kuliah berteraskan hasil pembelajaran program dan kaedah penilaian",
+            "Borang aduan pelanggan",
+            "Surat kelulusan penangguhan pengajian",
+            "Laporan audit pelaksanaan SPK sahaja"
+          ],
+          "answer": [
+            "Perancangan kuliah berteraskan hasil pembelajaran program dan kaedah penilaian"
+          ],
+          "feedback": "CO menerangkan perancangan kuliah, hasil pembelajaran dan kaedah penilaian."
+        },
+        {
+          "id": "f2026_034",
+          "type": "single",
+          "question": "Portfolio Pengajaran dalam TA-03 digambarkan sebagai...",
+          "options": [
+            "Dokumen pengumpulan bahan PdP setiap kursus yang menjadi hak milik peribadi pensyarah dan boleh diakses pengurusan",
+            "Dokumen kewangan peribadi pelajar",
+            "Senarai aduan awam tanpa siasatan",
+            "Fail sementara yang tidak boleh dirujuk"
+          ],
+          "answer": [
+            "Dokumen pengumpulan bahan PdP setiap kursus yang menjadi hak milik peribadi pensyarah dan boleh diakses pengurusan"
+          ],
+          "feedback": "Portfolio Pengajaran menyokong bukti pelaksanaan PdP dan boleh dirujuk oleh pihak pengurusan."
+        },
+        {
+          "id": "f2026_035",
+          "type": "single",
+          "question": "Rancangan Pengajaran (RP) ialah...",
+          "options": [
+            "Perancangan aktiviti pengajaran harian sebagai panduan semasa PdP",
+            "Jadual audit tahunan SPK",
+            "Borang permohonan pertukaran program",
+            "Laporan penilaian latihan industri"
+          ],
+          "answer": [
+            "Perancangan aktiviti pengajaran harian sebagai panduan semasa PdP"
+          ],
+          "feedback": "RP membantu pensyarah melaksanakan PdP harian secara terancang."
+        },
+        {
+          "id": "f2026_036",
+          "type": "single",
+          "question": "Pentaksiran Berterusan (PB) dalam TA-03 merujuk kepada...",
+          "options": [
+            "Kuiz, ujian, tugasan, amali dan aktiviti pentaksiran berkaitan",
+            "Mesyuarat Kajian Semula Pengurusan sahaja",
+            "Pendaftaran peserta latihan SPK",
+            "Rekod pelupusan dokumen kualiti"
+          ],
+          "answer": [
+            "Kuiz, ujian, tugasan, amali dan aktiviti pentaksiran berkaitan"
+          ],
+          "feedback": "PB terdiri daripada pelbagai aktiviti pentaksiran sepanjang kursus."
+        },
+        {
+          "id": "f2026_037",
+          "type": "single",
+          "question": "Rubrik Pentaksiran digunakan sebagai...",
+          "options": [
+            "Alat penilaian berasaskan kriteria dan standard untuk menilai prestasi pelajar",
+            "Dokumen pelupusan rekod kualiti",
+            "Surat tawaran masuk program diploma",
+            "Kalendar aktiviti tahunan kolej"
+          ],
+          "answer": [
+            "Alat penilaian berasaskan kriteria dan standard untuk menilai prestasi pelajar"
+          ],
+          "feedback": "Rubrik membantu penilaian subjektif dibuat secara lebih konsisten."
+        },
+        {
+          "id": "f2026_038",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-04 ialah memastikan proses pencerapan PdP...",
+          "options": [
+            "Dilaksanakan dengan berkesan kepada pensyarah",
+            "Dihapuskan daripada bukti kualiti",
+            "Dijalankan hanya oleh pelajar",
+            "Dilakukan tanpa instrumen penilaian"
+          ],
+          "answer": [
+            "Dilaksanakan dengan berkesan kepada pensyarah"
+          ],
+          "feedback": "TA-04 mengurus proses pencerapan pengajaran dan pembelajaran."
+        },
+        {
+          "id": "f2026_039",
+          "type": "single",
+          "question": "Dalam TA-04, pencerapan ulangan perlu dilaksanakan sekiranya markah penilaian...",
+          "options": [
+            "Kurang 80%",
+            "Melebihi 95%",
+            "Genap 100%",
+            "Tidak direkod langsung"
+          ],
+          "answer": [
+            "Kurang 80%"
+          ],
+          "feedback": "Pencerapan ulangan digunakan sebagai tindakan susulan apabila markah pencerapan belum mencapai tahap ditetapkan."
+        },
+        {
+          "id": "f2026_040",
+          "type": "single",
+          "question": "Prosedur KVKPM-PK-TA-05 berkaitan dengan...",
+          "options": [
+            "Pengurusan Penilaian dan Pentaksiran",
+            "Perancangan Takwim Tahunan",
+            "Pengurusan Aduan Pelanggan",
+            "Pembangunan Program Baharu sahaja"
+          ],
+          "answer": [
+            "Pengurusan Penilaian dan Pentaksiran"
+          ],
+          "feedback": "TA-05 merangkumi rekod pergerakan kertas soalan, laporan pengawas, vetting PB/PA dan semakan semula."
+        },
+        {
+          "id": "f2026_041",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-06 ialah menjelaskan kaedah pendaftaran kursus pelajar diploma supaya...",
+          "options": [
+            "Pendaftaran kursus sistematik, teratur dan menyokong graduasi dalam tempoh ditetapkan",
+            "Aduan pelanggan disimpan tanpa tindakan",
+            "Pencerapan pensyarah dijalankan tanpa jadual",
+            "Dokumen kualiti dicetak tanpa kawalan"
+          ],
+          "answer": [
+            "Pendaftaran kursus sistematik, teratur dan menyokong graduasi dalam tempoh ditetapkan"
+          ],
+          "feedback": "TA-06 digunakan pada awal setiap semester pengajian bagi pendaftaran kursus program diploma."
+        },
+        {
+          "id": "f2026_042",
+          "type": "single",
+          "question": "Dalam KVKPM-PK-TA-07, tindakan pensyarah apabila ketidakhadiran tanpa sebab melebihi 20% ialah...",
+          "options": [
+            "Melapor dan menghantar maklumat kepada Penyelaras Intervensi untuk tindakan",
+            "Memadam rekod kehadiran pelajar",
+            "Membenarkan pelajar menduduki semua penilaian tanpa semakan",
+            "Menyerahkan kes terus kepada penyelia OJT"
+          ],
+          "answer": [
+            "Melapor dan menghantar maklumat kepada Penyelaras Intervensi untuk tindakan"
+          ],
+          "feedback": "TA-07 menetapkan pelaporan ketidakhadiran kepada Penyelaras Intervensi apabila melebihi had yang ditetapkan."
+        },
+        {
+          "id": "f2026_043",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-08 adalah memastikan latihan industri atau OJT...",
+          "options": [
+            "Dirancang, dilaksanakan, dipantau dan dinilai dengan berkesan",
+            "Dijalankan tanpa penyeliaan organisasi",
+            "Dilaksanakan tanpa rujukan garis panduan",
+            "Menggantikan semua kursus diploma"
+          ],
+          "answer": [
+            "Dirancang, dilaksanakan, dipantau dan dinilai dengan berkesan"
+          ],
+          "feedback": "TA-08 meliputi perancangan, pemantauan, penyeliaan dan penilaian OJT pelajar diploma."
+        },
+        {
+          "id": "f2026_044",
+          "type": "single",
+          "question": "Latihan Industri (OJT) ditakrifkan sebagai...",
+          "options": [
+            "Latihan dalam suasana pekerjaan sebenar di agensi kerajaan atau swasta",
+            "Mesyuarat dalaman pensyarah tanpa pelajar",
+            "Pendaftaran kursus pada awal semester",
+            "Audit dokumen kualiti oleh pengurus dokumen"
+          ],
+          "answer": [
+            "Latihan dalam suasana pekerjaan sebenar di agensi kerajaan atau swasta"
+          ],
+          "feedback": "OJT memberi pengalaman pekerjaan sebenar kepada pelajar mengikut tempoh program."
+        },
+        {
+          "id": "f2026_045",
+          "type": "single",
+          "question": "Projek Tahun Akhir (PTA) menurut KVKPM-PK-TA-09 ialah kursus wajib bagi program Diploma yang dilaksanakan dalam...",
+          "options": [
+            "Semester 3 dan Semester 4",
+            "Semester 1 sahaja",
+            "Minggu pertama pendaftaran sahaja",
+            "Selepas graduasi sahaja"
+          ],
+          "answer": [
+            "Semester 3 dan Semester 4"
+          ],
+          "feedback": "PTA menguji keupayaan pelajar mengaplikasikan kemahiran sepanjang pengajian."
+        },
+        {
+          "id": "f2026_046",
+          "type": "single",
+          "question": "Objektif KVKPM-PK-TA-10 ialah...",
+          "options": [
+            "Mengurus pengambilan pelajar Program Diploma agar proses dilaksanakan dengan berkesan",
+            "Menjalankan pencerapan ulangan pensyarah",
+            "Menyimpan semua aduan tanpa siasatan",
+            "Mengesahkan dokumen cetakan tidak terkawal"
+          ],
+          "answer": [
+            "Mengurus pengambilan pelajar Program Diploma agar proses dilaksanakan dengan berkesan"
+          ],
+          "feedback": "TA-10 mengawal proses pengambilan pelajar diploma."
+        },
+        {
+          "id": "f2026_047",
+          "type": "single",
+          "question": "Dalam KVKPM-PK-TA-11, semakan semula kurikulum dilaksanakan sekurang-kurangnya...",
+          "options": [
+            "Sekali dalam tempoh lima tahun selepas penawaran pertama program",
+            "Setiap hari selepas PdP",
+            "Sekali dalam tempoh dua minggu",
+            "Hanya apabila pelajar membuat aduan"
+          ],
+          "answer": [
+            "Sekali dalam tempoh lima tahun selepas penawaran pertama program"
+          ],
+          "feedback": "TA-11 memastikan program kekal relevan, dinamik dan berdaya saing."
+        },
+        {
+          "id": "f2026_048",
+          "type": "single",
+          "question": "Penambahbaikan Berterusan (CQI) dalam KVKPM-PK-TA-12 merujuk kepada...",
+          "options": [
+            "Proses memantau dan menambah baik kualiti secara berterusan",
+            "Proses memadam bukti audit selepas mesyuarat",
+            "Proses menggantikan semua hasil pembelajaran",
+            "Proses menukar program tanpa kelulusan"
+          ],
+          "answer": [
+            "Proses memantau dan menambah baik kualiti secara berterusan"
+          ],
+          "feedback": "CQI penting untuk mencapai visi, misi, matlamat pendidikan dan hasil pembelajaran."
+        },
+        {
+          "id": "f2026_049",
+          "type": "single",
+          "question": "Pemindahan Kredit dalam KVKPM-PK-TA-13 bermaksud...",
+          "options": [
+            "Kredit yang diberi kepada pelajar daripada kursus program terdahulu ke program yang sedang diikuti",
+            "Penangguhan pengajian atas sebab kesihatan",
+            "Pencerapan PdP oleh pegawai penilai",
+            "Pengedaran jadual waktu kepada pensyarah"
+          ],
+          "answer": [
+            "Kredit yang diberi kepada pelajar daripada kursus program terdahulu ke program yang sedang diikuti"
+          ],
+          "feedback": "TA-13 mengurus pemindahan kredit, pengecualian kursus dan pertukaran program pengajian."
+        },
+        {
+          "id": "f2026_050",
+          "type": "single",
+          "question": "Penangguhan Pengajian dalam KVKPM-PK-TA-14 merujuk kepada...",
+          "options": [
+            "Pengajian pelajar yang ditangguhkan atas sebab masalah kesihatan atau kes khas",
+            "Pertukaran tempat pengajian selepas minggu kelapan tanpa kelulusan",
+            "Pendaftaran kursus tanpa borang",
+            "Latihan staf sekurang-kurangnya 7 hari setahun"
+          ],
+          "answer": [
+            "Pengajian pelajar yang ditangguhkan atas sebab masalah kesihatan atau kes khas"
+          ],
+          "feedback": "TA-14 mengurus proses penangguhan pengajian mengikut perancangan dan dasar yang ditetapkan."
+        }
+      ]
+    }
+  }
+}

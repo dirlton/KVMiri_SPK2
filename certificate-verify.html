@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semakan Sijil | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/darkmode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/spk-interactive.css">
+</head>
+<body data-page="verify">
+  <div id="navbar"></div>
+
+  <main class="simple-page">
+    <section class="container page-heading">
+      <span class="eyebrow">Semakan Sijil</span>
+      <h1>Semak Ketulenan Certificate ID</h1>
+      <p>Masukkan Certificate ID untuk menyemak rekod sijil melalui Google Apps Script.</p>
+    </section>
+
+    <section class="container grid grid-2 verify-layout">
+      <article class="card">
+        <form id="verifyCertificateForm" novalidate>
+          <label for="certificateIdInput">Certificate ID</label>
+          <input id="certificateIdInput" name="certificateId" type="text" placeholder="SPK-2026-000001" autocomplete="off" required>
+          <small class="field-error" data-error-for="certificateId"></small>
+          <div class="form-actions">
+            <button class="btn btn-gradient" type="submit" id="verifyCertificateButton">Semak Sijil</button>
+          </div>
+        </form>
+      </article>
+
+      <article class="card verification-result" id="verificationResult" aria-live="polite">
+        <h2>Keputusan Semakan</h2>
+        <p>Sila masukkan Certificate ID untuk semakan.</p>
+      </article>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/certificate-verify.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sijil Digital | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/darkmode.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+  <link rel="stylesheet" href="../assets/css/cards.css">
+  <link rel="stylesheet" href="../assets/css/button.css">
+  <link rel="stylesheet" href="../assets/css/certificate.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/spk-interactive.css">
+</head>
+<body data-page="certificate">
+  <div id="navbar" class="no-print"></div>
+
+  <main class="simple-page">
+    <section class="container page-heading no-print">
+      <span class="eyebrow">Sijil</span>
+      <h1>Sijil Digital SPK</h1>
+      <p id="certificateGate" class="gate">Belum layak. Lengkapkan penilaian akhir dahulu.</p>
+    </section>
+
+    <section class="container grid grid-2 no-print">
+      <article class="card">
+        <h2>Maklumat Peserta</h2>
+        <ul class="summary-list participant-readonly">
+          <li><span>Nama</span><strong id="participantName">-</strong></li>
+          <li><span>No KP</span><strong id="participantNoKp">-</strong></li>
+          <li><span>Email</span><strong id="participantEmail">-</strong></li>
+          <li><span>Jawatan</span><strong id="participantPosition">-</strong></li>
+          <li><span>Unit</span><strong id="participantUnit">-</strong></li>
+          <li><span>Certificate ID</span><strong id="participantCertificateId">Menunggu</strong></li>
+        </ul>
+
+        <div class="form-actions">
+          <button class="btn btn-gradient" type="button" id="generateCertificate">Jana Sijil</button>
+          <button class="btn btn-outline" type="button" id="printCertificate">Cetak</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Keperluan Sijil</h2>
+        <ul class="default-list">
+          <li>Lengkapkan modul pembelajaran.</li>
+          <li>Jawab Penilaian Akhir.</li>
+          <li>Capai sekurang-kurangnya <span data-pass-mark>80%</span>.</li>
+          <li>Simpan maklumat peserta sebelum mencetak sijil.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="certificate-page">
+      <div class="certificate" id="certificatePreview">
+        <div class="watermark">SPK</div>
+        <div class="ribbon">LULUS</div>
+        <div class="certificate-inner">
+          <div class="certificate-header">
+            <div class="logo-mark certificate-logo">SPK</div>
+            <div class="certificate-title">SIJIL PENYERTAAN</div>
+            <div class="certificate-subtitle">Taklimat Sistem Pengurusan Kualiti KV Miri 2026</div>
+          </div>
+
+          <div class="certificate-body">
+            <p class="certificate-label">Dengan ini disahkan bahawa</p>
+            <div class="certificate-name" id="certName">Pensyarah</div>
+            <p class="certificate-text">
+              dari <strong id="certDepartment">Kolej Vokasional Miri</strong> telah menyelesaikan latihan interaktif
+              Sistem Pengurusan Kualiti dan mencapai markah penilaian akhir sebanyak
+              <strong id="certScore">0%</strong>.
+            </p>
+            <div class="certificate-module">SPK KV MIRI 2026</div>
+            <div class="certificate-id">Certificate ID: <strong id="certId">Menunggu</strong></div>
+          </div>
+
+          <div class="certificate-footer">
+            <div class="signature">
+              <div class="signature-line">Penyelaras SPK</div>
+              <small>Kolej Vokasional Miri</small>
+            </div>
+            <div class="certificate-seal">SPK<br>KV<br>MIRI</div>
+            <div class="signature">
+              <div class="signature-line" id="certDate">Tarikh</div>
+              <small>Tarikh Jana Sijil</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer" class="no-print"></div>
+
+  <script src="../assets/js/config.js"></script>
+  <script src="../assets/js/storage.js"></script>
+  <script src="../assets/js/ui.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/certificate.js"></script>
+</body>
+</html>
+

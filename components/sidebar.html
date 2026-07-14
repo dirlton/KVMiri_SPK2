@@ -1,0 +1,151 @@
+<!-- =======================================================
+SPK KV MIRI 2026
+components/sidebar.html
+Reusable Sidebar Component
+======================================================= -->
+
+<aside class="sidebar" id="sidebar" aria-label="Sidebar Navigation">
+
+    <!-- User Profile -->
+    <div class="sidebar-profile">
+
+        <img src="/assets/images/avatar/default-avatar.png"
+             alt="Avatar Pengguna"
+             class="sidebar-avatar">
+
+        <h3 id="userName">Pensyarah</h3>
+
+        <p id="userRole">Kolej Vokasional Miri</p>
+
+        <div class="sidebar-level">
+            ⭐ Level <span id="userLevel">1</span>
+        </div>
+
+    </div>
+
+    <!-- Progress Summary -->
+    <div class="sidebar-progress">
+
+        <h4>Kemajuan</h4>
+
+        <div class="progress-track">
+            <div class="progress-fill"
+                 id="sidebarProgressBar"
+                 style="width:0%;">
+            </div>
+        </div>
+
+        <small id="sidebarProgressText">
+            0% Selesai
+        </small>
+
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar-menu">
+
+        <h4>Menu Utama</h4>
+
+        <a href="/dashboard.html">
+            📊 Dashboard
+        </a>
+
+        <a href="/index.html">
+            🏠 Halaman Utama
+        </a>
+
+        <a href="/about.html">
+            ℹ️ Pengenalan
+        </a>
+
+    </nav>
+
+    <!-- Modules -->
+    <div class="sidebar-modules">
+
+        <h4>Modul Pembelajaran</h4>
+
+        <a href="/modules/module1.html">
+            📘 Modul 1
+        </a>
+
+        <a href="/modules/module2.html">
+            📗 Modul 2
+        </a>
+
+        <a href="/modules/module3.html">
+            📙 Modul 3
+        </a>
+
+        <a href="/modules/module4.html">
+            📕 Modul 4
+        </a>
+
+        <a href="/modules/module5.html">
+            📓 Modul 5
+        </a>
+
+        <a href="/modules/final-assessment.html">
+            📝 Penilaian Akhir
+        </a>
+
+    </div>
+
+    <!-- Achievement -->
+    <div class="sidebar-achievement">
+
+        <h4>Pencapaian</h4>
+
+        <div class="achievement-item">
+            🏆 XP :
+            <strong id="sidebarXP">
+                0
+            </strong>
+        </div>
+
+        <div class="achievement-item">
+            🎖️ Badge :
+            <strong id="sidebarBadge">
+                0
+            </strong>
+        </div>
+
+        <div class="achievement-item">
+            📜 Sijil :
+            <strong id="sidebarCertificate">
+                Belum Layak
+            </strong>
+        </div>
+
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="sidebar-actions">
+
+        <a href="/certificate/certificate.html"
+           class="btn btn-outline btn-block">
+            Lihat Sijil
+        </a>
+
+        <button
+            class="btn btn-primary btn-block"
+            id="continueModuleButton">
+            Sambung Modul
+        </button>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="sidebar-footer">
+
+        <small>
+            SPK KV MIRI 2026
+        </small>
+
+        <small>
+            Version 1.0.0
+        </small>
+
+    </div>
+
+</aside>

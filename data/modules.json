@@ -1,0 +1,226 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "slug": "module1",
+      "title": "Pengenalan SPK dan Manual Kualiti",
+      "shortTitle": "Pengenalan SPK",
+      "subtitle": "Asas Sistem Pengurusan Kualiti KV Miri",
+      "duration": "30 minit",
+      "xp": 100,
+      "badge": "Asas SPK",
+      "summary": "Kenali tujuan SPK, kepentingannya kepada pensyarah baharu, dan peranan Manual Kualiti sebagai dokumen rujukan utama.",
+      "objectives": [
+        "Menerangkan maksud Sistem Pengurusan Kualiti.",
+        "Mengenal pasti tujuan Manual Kualiti KVKPM.",
+        "Menghubungkan SPK dengan akreditasi, standard kerja dan penambahbaikan berterusan."
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu SPK?",
+          "body": "SPK ialah Sistem Pengurusan Kualiti yang membantu organisasi melaksanakan proses kerja secara tersusun, konsisten dan boleh diaudit. Dalam konteks Kolej Vokasional Miri, SPK menjadi panduan supaya perkhidmatan pendidikan memenuhi standard yang ditetapkan."
+        },
+        {
+          "heading": "Mengapa SPK penting?",
+          "body": "SPK menyokong pematuhan akreditasi program, mengurangkan ralat kerja, menyeragamkan proses, dan menggalakkan budaya penambahbaikan berterusan dalam kalangan warga kolej."
+        },
+        {
+          "heading": "Manual Kualiti",
+          "body": "Manual Kualiti menerangkan maklumat organisasi, prinsip sistem kualiti, pelanggan, perkhidmatan, visi, misi dan lokasi. Dokumen ini juga membantu warga kolej memahami dasar dan prinsip pelaksanaan SPK."
+        }
+      ],
+      "activities": [
+        {
+          "type": "reveal",
+          "prompt": "Klik untuk ingat semula maksud SPK.",
+          "answer": "Sistem Pengurusan Kualiti."
+        },
+        {
+          "type": "checklist",
+          "prompt": "Semak kefahaman kendiri.",
+          "items": [
+            "Saya boleh menerangkan maksud SPK.",
+            "Saya tahu Manual Kualiti ialah dokumen rujukan utama.",
+            "Saya faham SPK berkait dengan akreditasi dan kualiti perkhidmatan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "module2",
+      "title": "Prosedur Teras Akademik",
+      "shortTitle": "Teras Akademik",
+      "subtitle": "Dokumen berkod TA dan proses PdPc",
+      "duration": "40 minit",
+      "xp": 100,
+      "badge": "Dokumen TA",
+      "summary": "Fahami maksud kod TA, dokumen PdPc, Fail Portfolio Pensyarah, rekod kehadiran dan exit survey.",
+      "objectives": [
+        "Membezakan prosedur Teras Akademik daripada kategori dokumen lain.",
+        "Mengenal pasti fokus dokumen KVKPM-PK-TA-03.",
+        "Menjelaskan rekod dan lampiran penting dalam pelaksanaan PdPc."
+      ],
+      "sections": [
+        {
+          "heading": "Kod KVKPM-PK-TA",
+          "body": "Kod TA merujuk kepada Prosedur Teras Akademik. Kategori ini menghimpunkan proses utama yang berkaitan secara langsung dengan pengajaran, pembelajaran, pentaksiran dan pengurusan akademik."
+        },
+        {
+          "heading": "KVKPM-PK-TA-03",
+          "body": "Dokumen KVKPM-PK-TA-03 merujuk kepada Prosedur Pembelajaran dan Pemudahcaraan (PdPc). Dokumen ini memberi panduan kepada pensyarah sebelum, semasa dan selepas mengajar supaya PdPc berjalan lancar dan berkesan."
+        },
+        {
+          "heading": "Rekod PdPc",
+          "body": "Pensyarah perlu menjaga rekod seperti Fail Portfolio Pensyarah, rekod kehadiran pelajar, RP atau Course Outline, dan bukti penambahbaikan yang berkaitan."
+        }
+      ],
+      "activities": [
+        {
+          "type": "matching",
+          "prompt": "Padankan istilah dengan maksud.",
+          "pairs": [
+            ["TA", "Prosedur Teras Akademik"],
+            ["FPP", "Fail Portfolio Pensyarah"],
+            ["PdPc", "Pembelajaran dan Pemudahcaraan"]
+          ]
+        },
+        {
+          "type": "reveal",
+          "prompt": "Bilakah Exit Survey lazim dilaksanakan?",
+          "answer": "Pada minggu ke-14."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "module3",
+      "title": "Pentaksiran, Kehadiran dan CQI",
+      "shortTitle": "Pentaksiran dan CQI",
+      "subtitle": "TA-07, pengurusan penilaian dan penambahbaikan",
+      "duration": "45 minit",
+      "xp": 100,
+      "badge": "Pentaksiran",
+      "summary": "Teroka pengurusan pentaksiran, kelayakan menduduki penilaian akhir, peranan pensyarah, dan konsep CQI atau Closing The Loop.",
+      "objectives": [
+        "Menerangkan tanggungjawab pensyarah dalam pengurusan pentaksiran.",
+        "Mengenal pasti kesan kehadiran kurang daripada 80 peratus.",
+        "Mengaitkan CQI dengan laporan CLO, PLO dan PEO."
+      ],
+      "sections": [
+        {
+          "heading": "Pengurusan Pentaksiran",
+          "body": "Prosedur pentaksiran memastikan penilaian kolej berjalan lancar mengikut dasar yang telah ditetapkan. Pensyarah terlibat dalam penyediaan, pelaksanaan, pemeriksaan dan rekod berkaitan pentaksiran."
+        },
+        {
+          "heading": "Kehadiran dan Intervensi",
+          "body": "Kehadiran pelajar perlu dipantau. Jika ketidakhadiran tanpa sebab melebihi had tertentu, pensyarah perlu melaporkan maklumat untuk tindakan Jawatankuasa Intervensi."
+        },
+        {
+          "heading": "CQI dan Closing The Loop",
+          "body": "CQI menekankan penambahbaikan berterusan. Data seperti CLO, PLO dan PEO digunakan untuk membuat laporan, tindakan susulan dan bukti bahawa penambahbaikan telah dilaksanakan."
+        }
+      ],
+      "activities": [
+        {
+          "type": "scenario",
+          "prompt": "Seorang pelajar mempunyai kehadiran kurang daripada 80 peratus tanpa alasan munasabah. Apakah risiko utama?",
+          "answer": "Pelajar boleh tidak dibenarkan menduduki Penilaian Akhir."
+        },
+        {
+          "type": "reveal",
+          "prompt": "Apakah maksud CQI dalam konteks SPK?",
+          "answer": "Penambahbaikan berterusan yang disokong oleh bukti, analisis dan tindakan susulan."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "module4",
+      "title": "Prosedur Sokongan Akademik",
+      "shortTitle": "Sokongan Akademik",
+      "subtitle": "Pendaftaran, pertukaran dan pengurusan pelajar",
+      "duration": "35 minit",
+      "xp": 100,
+      "badge": "Sokongan",
+      "summary": "Kenali prosedur sokongan akademik berkaitan pendaftaran pelajar baharu, pertukaran pelajar dan pengurusan aduan atau maklum balas.",
+      "objectives": [
+        "Mengenal pasti maksud dokumen berkod SA.",
+        "Menerangkan peranan prosedur pendaftaran pelajar baharu.",
+        "Memahami tempoh tindakan terhadap aduan dan maklum balas pelanggan."
+      ],
+      "sections": [
+        {
+          "heading": "Kod SA",
+          "body": "Kod SA merujuk kepada Prosedur Pengurusan Sokongan Akademik. Prosedur ini membantu proses bukan PdPc yang masih menyokong perjalanan akademik pelajar."
+        },
+        {
+          "heading": "Pendaftaran Pelajar Baharu",
+          "body": "Prosedur pendaftaran memberi panduan kepada kolej untuk mengurus kemasukan pelajar diploma supaya proses berjalan teratur dan berkesan."
+        },
+        {
+          "heading": "Aduan dan Maklum Balas",
+          "body": "Aduan pelanggan perlu direkod, disemak dan diberi perhatian dalam tempoh tindakan yang ditetapkan. Ini membantu kolej mengekalkan kualiti perkhidmatan."
+        }
+      ],
+      "activities": [
+        {
+          "type": "reveal",
+          "prompt": "Apakah fokus utama dokumen SA?",
+          "answer": "Sokongan kepada proses akademik seperti pendaftaran, pertukaran dan pengurusan pelajar."
+        },
+        {
+          "type": "checklist",
+          "prompt": "Sebelum tamat modul, semak perkara berikut.",
+          "items": [
+            "Saya dapat membezakan TA dan SA.",
+            "Saya tahu proses sokongan akademik juga sebahagian daripada SPK.",
+            "Saya faham aduan pelanggan perlu direkod dan ditindak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "module5",
+      "title": "Pengurusan Umum, Audit dan Latihan Staf",
+      "shortTitle": "Pengurusan Umum",
+      "subtitle": "Dokumen PU, audit dalaman dan latihan staf",
+      "duration": "35 minit",
+      "xp": 100,
+      "badge": "Audit dan Latihan",
+      "summary": "Fahami maksud PU, perancangan audit SPK, tanggungjawab audit, dan prosedur latihan staf sekurang-kurangnya tujuh hari setahun.",
+      "objectives": [
+        "Menerangkan maksud kod PU dalam dokumen kualiti.",
+        "Mengenal pasti fungsi prosedur pengendalian semakan dalaman.",
+        "Menghubungkan latihan staf dengan pembangunan profesional dan bukti SPK."
+      ],
+      "sections": [
+        {
+          "heading": "Kod PU",
+          "body": "Kod PU merujuk kepada Prosedur Pengurusan Umum. Ia meliputi urusan seperti perancangan latihan staf, mesyuarat kajian semula pengurusan dan semakan dalaman SPK."
+        },
+        {
+          "heading": "Audit Dalaman",
+          "body": "Audit dalaman membantu kolej menilai sama ada prosedur dilaksanakan mengikut keperluan. Jadual audit perlu dirancang dengan mengambil kira prosedur, auditor dan auditee."
+        },
+        {
+          "heading": "Latihan Staf",
+          "body": "Prosedur latihan staf memberi panduan supaya pensyarah dan anggota kumpulan pelaksana menghadiri latihan yang sesuai, direkod dan dinilai keberkesanannya."
+        }
+      ],
+      "activities": [
+        {
+          "type": "scenario",
+          "prompt": "Jika audit dalaman mendapati bukti tidak lengkap, apakah tindakan profesional?",
+          "answer": "Lengkapkan bukti, maklumkan pihak berkaitan dan laksanakan penambahbaikan berdasarkan prosedur."
+        },
+        {
+          "type": "reveal",
+          "prompt": "Apakah sasaran latihan staf yang disebut dalam dokumen?",
+          "answer": "Sekurang-kurangnya 7 hari latihan dalam setahun."
+        }
+      ]
+    }
+  ]
+}

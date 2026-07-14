@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/darkmode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/spk-interactive.css">
+</head>
+<body data-page="dashboard">
+  <div id="navbar"></div>
+
+  <main class="dashboard-page">
+    <section class="container dashboard-header">
+      <div>
+        <span class="eyebrow">Dashboard</span>
+        <h1>Kemajuan Pembelajaran</h1>
+        <p>Selamat datang, <strong id="dashboardWelcomeName">Peserta SPK</strong>.</p>
+        <div class="participant-summary">
+          <span>Jawatan: <strong id="dashboardPosition">-</strong></span>
+          <span>Unit: <strong id="dashboardUnit">-</strong></span>
+          <span>Email: <strong id="dashboardEmail">-</strong></span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="modules/module1.html" class="btn btn-gradient" id="continueLearning">Sambung Pembelajaran</a>
+        <button class="btn btn-outline" type="button" data-reset-progress>Reset</button>
+      </div>
+    </section>
+
+    <section class="container">
+      <div id="progressbar"></div>
+    </section>
+
+    <section class="container stats-grid">
+      <article class="card stat-card">
+        <h4>Progress</h4>
+        <div class="stat-value" id="dashboardProgress">0%</div>
+        <p>Kemajuan modul</p>
+      </article>
+      <article class="card stat-card">
+        <h4>XP</h4>
+        <div class="stat-value" id="dashboardXP">0</div>
+        <p>Mata terkumpul</p>
+      </article>
+      <article class="card stat-card">
+        <h4>Lencana</h4>
+        <div class="stat-value" id="dashboardBadge">0</div>
+        <p>Pencapaian modul</p>
+      </article>
+      <article class="card stat-card">
+        <h4>Level</h4>
+        <div class="stat-value" id="dashboardLevel">1</div>
+        <p>Tahap semasa</p>
+      </article>
+    </section>
+
+    <section class="container grid grid-2">
+      <article class="card">
+        <h2>Senarai Modul</h2>
+        <div class="dashboard-module-list" id="dashboardModules"></div>
+      </article>
+
+      <article class="card">
+        <h2>Pencapaian</h2>
+        <ul class="summary-list">
+          <li><span>Modul Siap</span><strong id="moduleCompleteText">0</strong></li>
+          <li><span>Status Sijil</span><strong id="certificateStatus">Belum Layak</strong></li>
+        </ul>
+        <a href="certificate/certificate.html" class="btn btn-outline">Lihat Sijil</a>
+      </article>
+    </section>
+
+    <section class="container card">
+      <h2>Aktiviti Terbaru</h2>
+      <table class="dashboard-table">
+        <thead>
+          <tr>
+            <th>Tarikh</th>
+            <th>Aktiviti</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="activityRows">
+          <tr>
+            <td>-</td>
+            <td>Belum mempunyai aktiviti.</td>
+            <td>Menunggu</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Peserta | SPK KV MIRI 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/darkmode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/spk-interactive.css">
+</head>
+<body data-page="registration">
+  <div id="navbar"></div>
+
+  <main class="simple-page">
+    <section class="container page-heading registration-heading">
+      <span class="eyebrow">Pendaftaran Peserta</span>
+      <h1>Daftar Sekali Untuk Mula Pembelajaran</h1>
+      <p>Maklumat peserta digunakan untuk rekod kehadiran, penghantaran markah dan sijil digital SPK KV Miri 2026.</p>
+    </section>
+
+    <section class="container registration-layout">
+      <article class="card registration-card">
+        <form id="registrationForm" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="fullName">Nama Penuh</label>
+              <input id="fullName" name="name" type="text" autocomplete="name" required>
+              <small class="field-error" data-error-for="name"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="noKp">No Kad Pengenalan</label>
+              <input id="noKp" name="noKp" type="text" inputmode="numeric" maxlength="12" autocomplete="off" required>
+              <small class="field-error" data-error-for="noKp"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <small class="field-error" data-error-for="email"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="position">Jawatan</label>
+              <input id="position" name="position" type="text" autocomplete="organization-title" required>
+              <small class="field-error" data-error-for="position"></small>
+            </div>
+
+            <div class="form-field form-field-wide">
+              <label for="unit">Unit / Bahagian</label>
+              <input id="unit" name="unit" type="text" autocomplete="organization" required>
+              <small class="field-error" data-error-for="unit"></small>
+            </div>
+          </div>
+
+          <label class="confirm-row" for="confirmation">
+            <input id="confirmation" name="confirmation" type="checkbox" required>
+            <span>Saya mengesahkan bahawa maklumat yang diberikan adalah benar.</span>
+          </label>
+          <small class="field-error" data-error-for="confirmation"></small>
+
+          <div class="form-alert" id="registrationAlert" aria-live="polite"></div>
+
+          <div class="form-actions">
+            <button class="btn btn-gradient" id="startLearning" type="submit">MULA PEMBELAJARAN</button>
+            <a class="btn btn-outline" href="index.html">Kembali</a>
+          </div>
+        </form>
+      </article>
+
+      <aside class="registration-side">
+        <div class="progress-panel">
+          <strong>Aliran LMS</strong>
+          <ol class="registration-steps">
+            <li>Pendaftaran Peserta</li>
+            <li>Rekod Kehadiran</li>
+            <li>Dashboard Pembelajaran</li>
+            <li>Final Assessment</li>
+            <li>Certificate ID</li>
+          </ol>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/registration.js"></script>
+</body>
+</html>

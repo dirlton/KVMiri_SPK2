@@ -1,0 +1,298 @@
+/*!
+==========================================================
+SPK KV MIRI 2026
+responsive.css
+Responsive Layout System v1.0
+==========================================================
+*/
+
+/* ==========================================================
+   BREAKPOINTS
+   Desktop First
+========================================================== */
+
+/* ---------- Large Desktop (≤1400px) ---------- */
+@media (max-width:1400px){
+
+    .container,
+    .navbar-container,
+    .hero-container,
+    .footer-container{
+        width:min(94%,1280px);
+    }
+
+}
+
+/* ---------- Laptop (≤1200px) ---------- */
+@media (max-width:1200px){
+
+    .hero-container{
+        gap:2.5rem;
+    }
+
+    .dashboard{
+        grid-template-columns:240px 1fr;
+    }
+
+    .stats-grid,
+    .modules-grid{
+        gap:1.25rem;
+    }
+
+}
+
+/* ---------- Tablet Landscape (≤992px) ---------- */
+@media (max-width:992px){
+
+    section{
+        padding:70px 0;
+    }
+
+    .container{
+        width:94%;
+    }
+
+    .grid-4,
+    .grid-3,
+    .grid-2{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        min-height:auto;
+        padding:8rem 0 5rem;
+    }
+
+    .hero-container{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .hero-content{
+        margin-inline:auto;
+    }
+
+    .hero-actions{
+        justify-content:center;
+    }
+
+    .hero-stats{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .dashboard{
+        grid-template-columns:90px 1fr;
+    }
+
+    .sidebar-title,
+    .sidebar-nav span{
+        display:none;
+    }
+
+    .footer-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+/* ---------- Tablet Portrait (≤768px) ---------- */
+@media (max-width:768px){
+
+    html{
+        font-size:15px;
+    }
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    h2{
+        font-size:2rem;
+    }
+
+    .navbar-container{
+        height:72px;
+    }
+
+    .hero-stats{
+        grid-template-columns:1fr;
+    }
+
+    .dashboard{
+        grid-template-columns:1fr;
+    }
+
+    .sidebar{
+        position:fixed;
+        left:-100%;
+        top:0;
+        width:280px;
+        z-index:1001;
+        transition:.35s;
+    }
+
+    .sidebar.show{
+        left:0;
+    }
+
+    .dashboard-content{
+        padding:1rem;
+    }
+
+    .module-footer,
+    .quiz-actions,
+    .footer-bottom{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .footer-newsletter form{
+        flex-direction:column;
+    }
+
+}
+
+/* ---------- Mobile (≤576px) ---------- */
+@media (max-width:576px){
+
+    html{
+        font-size:14px;
+    }
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .container{
+        width:92%;
+    }
+
+    h1{
+        font-size:2.1rem;
+    }
+
+    h2{
+        font-size:1.75rem;
+    }
+
+    .hero{
+        padding:7rem 0 4rem;
+    }
+
+    .hero-title{
+        font-size:2.3rem;
+    }
+
+    .hero-description{
+        font-size:1rem;
+    }
+
+    .hero-card,
+    .hero-scroll{
+        display:none;
+    }
+
+    .nav-menu{
+        width:100%;
+    }
+
+    .stats-grid,
+    .modules-grid,
+    .badge-grid{
+        grid-template-columns:1fr;
+    }
+
+    .question-card{
+        padding:1.25rem;
+    }
+
+    .quiz-info{
+        flex-direction:column;
+    }
+
+    .back-to-top{
+        right:1rem;
+        bottom:1rem;
+    }
+
+}
+
+/* ---------- Small Mobile (≤400px) ---------- */
+@media (max-width:400px){
+
+    html{
+        font-size:13px;
+    }
+
+    .logo{
+        font-size:.9rem;
+    }
+
+    .hero-title{
+        font-size:2rem;
+    }
+
+    .nav-cta{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+/* ==========================================================
+   LANDSCAPE DEVICES
+========================================================== */
+
+@media (max-height:650px){
+
+    .hero{
+        min-height:auto;
+        padding:7rem 0 4rem;
+    }
+
+}
+
+/* ==========================================================
+   PRINT
+========================================================== */
+
+@media print{
+
+    .navbar,
+    .sidebar,
+    .footer,
+    .back-to-top,
+    .theme-toggle,
+    .hamburger{
+        display:none!important;
+    }
+
+    body{
+        background:#fff!important;
+        color:#000!important;
+    }
+
+    .dashboard{
+        display:block;
+    }
+
+}
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce){
+
+    *,
+    *::before,
+    *::after{
+        animation:none!important;
+        transition:none!important;
+        scroll-behavior:auto!important;
+    }
+
+}

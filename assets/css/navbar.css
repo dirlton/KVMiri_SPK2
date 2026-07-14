@@ -1,0 +1,251 @@
+
+/*!
+==========================================================
+SPK KV MIRI 2026
+navbar.css
+Production Navbar Styles v1.0
+==========================================================
+*/
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    transition:all .35s ease;
+    background:transparent;
+}
+
+.navbar.scrolled{
+    background:rgba(255,255,255,.88);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    border-bottom:1px solid var(--border);
+}
+
+.navbar-container{
+    width:min(92%,var(--container));
+    margin:auto;
+    height:82px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:.9rem;
+    font-weight:700;
+    color:var(--text);
+}
+
+.logo img{
+    width:52px;
+    height:52px;
+    object-fit:contain;
+    transition:.3s;
+}
+
+.navbar.scrolled .logo img{
+    width:44px;
+    height:44px;
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.nav-menu a{
+    position:relative;
+    color:var(--text);
+    font-weight:500;
+    transition:.3s;
+    padding:.4rem 0;
+}
+
+.nav-menu a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0;
+    height:3px;
+    background:var(--primary);
+    border-radius:999px;
+    transition:.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active{
+    color:var(--primary);
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active::after{
+    width:100%;
+}
+
+/* ===========================
+   ACTIONS
+=========================== */
+
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:.8rem;
+}
+
+.theme-toggle,
+.nav-icon{
+    width:46px;
+    height:46px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    background:var(--surface);
+    border:1px solid var(--border);
+    cursor:pointer;
+    transition:.3s;
+}
+
+.theme-toggle:hover,
+.nav-icon:hover{
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-2px);
+}
+
+.nav-cta{
+    padding:.9rem 1.5rem;
+    border-radius:999px;
+    background:var(--primary);
+    color:#fff;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-cta:hover{
+    background:var(--primary-dark);
+    transform:translateY(-2px);
+    box-shadow:var(--shadow-md);
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+.hamburger{
+    display:none;
+    width:46px;
+    height:46px;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.hamburger span{
+    display:block;
+    width:24px;
+    height:2px;
+    background:var(--text);
+    position:relative;
+}
+
+.hamburger span::before,
+.hamburger span::after{
+    content:"";
+    position:absolute;
+    left:0;
+    width:24px;
+    height:2px;
+    background:var(--text);
+}
+
+.hamburger span::before{top:-7px;}
+.hamburger span::after{top:7px;}
+
+@media(max-width:992px){
+
+    .hamburger{
+        display:flex;
+    }
+
+    .nav-menu{
+        position:fixed;
+        top:82px;
+        right:-100%;
+        width:300px;
+        height:calc(100vh - 82px);
+        background:var(--surface);
+        border-left:1px solid var(--border);
+        flex-direction:column;
+        align-items:flex-start;
+        padding:2rem;
+        gap:1.5rem;
+        transition:.35s;
+        box-shadow:var(--shadow-lg);
+    }
+
+    .nav-menu.show{
+        right:0;
+    }
+
+    .nav-actions .nav-cta{
+        display:none;
+    }
+}
+
+@media(max-width:576px){
+
+    .navbar-container{
+        height:72px;
+    }
+
+    .logo img{
+        width:42px;
+        height:42px;
+    }
+
+    .logo{
+        font-size:.95rem;
+    }
+
+    .nav-menu{
+        top:72px;
+        height:calc(100vh - 72px);
+        width:100%;
+    }
+}
+
+/* ===========================
+   DARK MODE
+=========================== */
+
+html[data-theme="dark"] .navbar.scrolled,
+body.dark .navbar.scrolled{
+    background:rgba(17,24,39,.88);
+    border-bottom:1px solid var(--border);
+}
+
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .nav-icon,
+body.dark .theme-toggle,
+body.dark .nav-icon{
+    background:var(--surface);
+}
+
+html[data-theme="dark"] .nav-menu,
+body.dark .nav-menu{
+    background:var(--surface);
+}

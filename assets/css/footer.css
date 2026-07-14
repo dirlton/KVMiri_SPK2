@@ -1,0 +1,239 @@
+
+/*!
+==========================================================
+SPK KV MIRI 2026
+footer.css
+Production Footer Styles v1.0
+==========================================================
+*/
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer{
+    background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+    margin-top:5rem;
+}
+
+.footer::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+        radial-gradient(circle at top right,rgba(255,255,255,.08),transparent 30%),
+        radial-gradient(circle at bottom left,rgba(255,255,255,.05),transparent 35%);
+    pointer-events:none;
+}
+
+.footer-container{
+    position:relative;
+    z-index:2;
+    width:min(92%,var(--container));
+    margin:auto;
+    padding:4rem 0 2rem;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1.2fr;
+    gap:2rem;
+}
+
+.footer-brand img{
+    width:80px;
+    margin-bottom:1rem;
+}
+
+.footer-brand h3{
+    color:#fff;
+    margin-bottom:.75rem;
+}
+
+.footer-brand p{
+    color:rgba(255,255,255,.8);
+}
+
+.footer-title{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#fff;
+    margin-bottom:1rem;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:.75rem;
+}
+
+.footer-links a{
+    color:rgba(255,255,255,.82);
+    transition:var(--transition);
+}
+
+.footer-links a:hover{
+    color:#fff;
+    transform:translateX(6px);
+}
+
+.footer-contact{
+    display:flex;
+    flex-direction:column;
+    gap:.8rem;
+}
+
+.footer-contact div{
+    display:flex;
+    align-items:flex-start;
+    gap:.75rem;
+    color:rgba(255,255,255,.85);
+}
+
+.footer-social{
+    display:flex;
+    gap:.8rem;
+    margin-top:1.2rem;
+}
+
+.footer-social a{
+    width:46px;
+    height:46px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.15);
+    transition:var(--transition);
+}
+
+.footer-social a:hover{
+    background:#fff;
+    color:var(--primary);
+    transform:translateY(-5px);
+}
+
+.footer-newsletter{
+    margin-top:1rem;
+}
+
+.footer-newsletter form{
+    display:flex;
+    gap:.75rem;
+    margin-top:.75rem;
+}
+
+.footer-newsletter input{
+    flex:1;
+    border:none;
+    border-radius:999px;
+    padding:.9rem 1rem;
+}
+
+.footer-newsletter button{
+    border:none;
+    border-radius:999px;
+    padding:.9rem 1.4rem;
+    background:var(--accent);
+    color:#fff;
+    font-weight:600;
+    cursor:pointer;
+    transition:var(--transition);
+}
+
+.footer-newsletter button:hover{
+    filter:brightness(1.08);
+    transform:translateY(-2px);
+}
+
+.footer-divider{
+    height:1px;
+    background:rgba(255,255,255,.15);
+    margin:2.5rem 0 1.5rem;
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+    flex-wrap:wrap;
+}
+
+.footer-bottom p,
+.footer-bottom a{
+    color:rgba(255,255,255,.78);
+    font-size:.95rem;
+}
+
+.footer-bottom-links{
+    display:flex;
+    gap:1.25rem;
+    flex-wrap:wrap;
+}
+
+.footer-bottom-links a:hover{
+    color:#fff;
+}
+
+.back-to-top{
+    position:fixed;
+    right:2rem;
+    bottom:2rem;
+    width:52px;
+    height:52px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    background:var(--primary);
+    color:#fff;
+    box-shadow:var(--shadow-lg);
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(20px);
+    transition:var(--transition);
+    z-index:999;
+}
+
+.back-to-top.show{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+.back-to-top:hover{
+    background:var(--accent);
+}
+
+@media (max-width:992px){
+    .footer-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media (max-width:768px){
+    .footer-container{
+        padding:3rem 0 2rem;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .footer-newsletter form{
+        flex-direction:column;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .back-to-top{
+        right:1rem;
+        bottom:1rem;
+    }
+}

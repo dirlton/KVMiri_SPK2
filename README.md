@@ -1,126 +1,200 @@
-WEBSITE INTERAKTIF SPK KV MIRI 2026
+# 🚀 Website Interaktif SPK KV Miri 2026
 
-README (Panduan Pemasangan & Penggunaan)
+![Version](https://img.shields.io/badge/Version-2.0-blue)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26-orange)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Google Apps
+Script](https://img.shields.io/badge/Google%20Apps%20Script-Backend-success)
+![Google
+Sheets](https://img.shields.io/badge/Google%20Sheets-Database-green)
 
-  Versi: 2.0 Status: Production Ready
+> Sistem Pembelajaran Interaktif (Learning Management System) bagi
+> Sistem Pengurusan Kualiti (SPK) Kolej Vokasional Miri.
 
-============================================================ 1.
-PENGENALAN ============================================================
+------------------------------------------------------------------------
 
-Website Interaktif SPK KV Miri merupakan sebuah Learning Management
-System (LMS) berasaskan HTML, CSS dan JavaScript yang dibangunkan untuk
-menyokong latihan Sistem Pengurusan Kualiti (SPK).
+# 📖 Pengenalan
 
-Fungsi utama: - Modul pembelajaran interaktif - Kuiz setiap modul -
-Final Assessment - Dashboard - Progress pembelajaran - XP & Badge -
-Sijil automatik - Integrasi Google Apps Script - Google Sheets sebagai
-pangkalan data - Rekod kehadiran - Rekod markah
+Website Interaktif SPK KV Miri dibangunkan untuk menyediakan platform
+pembelajaran digital yang moden, interaktif dan mesra pengguna bagi
+latihan Sistem Pengurusan Kualiti (SPK).
 
-============================================================ 2.
-TEKNOLOGI ============================================================
+## ✨ Ciri-ciri
 
-Frontend: - HTML5 - CSS3 - JavaScript ES6
+-   📚 Modul Pembelajaran Interaktif
+-   📝 Kuiz Setiap Modul
+-   🎯 Final Assessment (50 Soalan)
+-   📈 Dashboard Kemajuan
+-   🏅 XP & Badge
+-   🔓 Unlock Modul Automatik
+-   📄 Penjanaan Sijil
+-   ☁️ Integrasi Google Apps Script
+-   📊 Google Sheets sebagai pangkalan data
+-   👤 Pendaftaran Peserta
+-   📋 Rekod Kehadiran
+-   📊 Rekod Markah
+-   🔍 Semakan Sijil
 
-Backend: - Google Apps Script
+# 🏗️ Seni Bina Sistem
 
-Database: - Google Sheets
+``` text
+Peserta
+   │
+   ▼
+Pendaftaran
+   │
+   ▼
+Google Apps Script
+   │
+   ▼
+Google Sheets (Kehadiran)
+   │
+   ▼
+Dashboard
+   │
+   ▼
+Modul 1 → Modul 5
+   │
+   ▼
+Final Assessment
+   │
+   ▼
+Google Apps Script
+   │
+   ▼
+Google Sheets (Markah)
+   │
+   ▼
+Sijil
+```
 
-Storage: - LocalStorage
+# 📁 Struktur Projek
 
-============================================================ 3.
-KEPERLUAN ============================================================
+``` text
+WebsiteSPK2026/
+│
+├── assets/
+├── css/
+├── js/
+├── data/
+├── modules/
+├── dashboard/
+├── certificate/
+├── components/
+├── google-apps-script/
+├── config.js
+└── index.html
+```
 
--   Google Chrome / Edge
--   VS Code
+# ⚙️ Keperluan
+
+-   Visual Studio Code
 -   Live Server
+-   Google Chrome / Microsoft Edge
 -   Akaun Google
--   Google Spreadsheet
+-   Google Sheets
 -   Google Apps Script
 
-============================================================ 4. STRUKTUR
-FOLDER ============================================================
+# 🚀 Pemasangan
 
-WebsiteSPK2026/ assets/ css/ js/ data/ modules/ dashboard/ certificate/
-components/ google-apps-script/ config.js index.html
+1.  Muat turun projek.
+2.  Ekstrak fail ZIP.
+3.  Buka folder menggunakan VS Code.
+4.  Pasang extension **Live Server**.
+5.  Klik kanan `index.html`.
+6.  Pilih **Open with Live Server**.
 
-============================================================ 5.
-PENYEDIAAN GOOGLE SHEETS
-============================================================
+# ☁️ Google Sheets
 
-Cipta Spreadsheet: SPK KV Miri 2026
+Sediakan spreadsheet dengan dua sheet:
 
-Sheet: 1. Kehadiran 2. Markah
+## Kehadiran
 
-Sheet Markah: Nama No KP Email Jawatan Unit Tarikh Masa Markah Peratus
-Status Masa Menjawab Cubaan Certificate ID
+-   Nama
+-   No KP
+-   Email
+-   Jawatan
+-   Unit
 
-============================================================ 6. GOOGLE
-APPS SCRIPT ============================================================
+## Markah
 
-Extensions -> Apps Script
+-   Nama
+-   No KP
+-   Email
+-   Jawatan
+-   Unit
+-   Tarikh
+-   Masa
+-   Markah
+-   Peratus
+-   Status
+-   Masa Menjawab
+-   Cubaan
+-   Certificate ID
 
-Deploy: - Web App - Execute As: Me - Who Has Access: Anyone
+# ☁️ Google Apps Script
 
-Simpan URL Web App ke config.js.
+1.  Extensions → Apps Script
+2.  Tampal kod `Code.gs`
+3.  Deploy → Web App
+4.  Execute As: **Me**
+5.  Who has access: **Anyone**
+6.  Salin URL Web App
 
-============================================================ 7.
-CONFIG.JS ============================================================
+# ⚙️ config.js
 
-Simpan semua konfigurasi di satu tempat.
+Semua tetapan sistem hendaklah berada di dalam `config.js`.
 
-Contoh: API_URL PASS_MARK TOTAL_FINAL_QUESTIONS APP_VERSION
-CERTIFICATE_PREFIX
+Contoh:
 
-============================================================ 8. ALIRAN
-SISTEM ============================================================
+-   API_URL
+-   PASS_MARK
+-   TOTAL_FINAL_QUESTIONS
+-   APP_VERSION
+-   CERTIFICATE_PREFIX
 
-Landing Page ↓ Pendaftaran Peserta ↓ Dashboard ↓ Module 1 ↓ Module 2 ↓
-Module 3 ↓ Module 4 ↓ Module 5 ↓ Final Assessment ↓ Google Apps Script ↓
-Google Sheets ↓ Certificate
+# 👤 Aliran Pengguna
 
-============================================================ 9.
-PENDAFTARAN PESERTA
-============================================================
+1.  Daftar Peserta
+2.  Dashboard
+3.  Selesaikan Modul
+4.  Jawab Kuiz
+5.  Final Assessment
+6.  Hantar Markah
+7.  Jana Sijil
 
-Maklumat: - Nama - No KP - Email - Jawatan - Unit
+# 🛠️ Troubleshooting
 
-Disimpan ke: - LocalStorage - Google Sheets
+## Data tidak dihantar
 
-============================================================ 10. FINAL
-ASSESSMENT ============================================================
+-   Semak API_URL.
+-   Semak deployment Google Apps Script.
+-   Semak akses "Anyone".
+-   Semak Console Browser (F12).
 
-50 soalan Bahasa Malaysia Rawak 4 pilihan jawapan Markah automatik
+## Tiada markah direkod
 
-Selepas selesai: - Hantar markah - Jana Certificate ID - Papar keputusan
+-   Pastikan sheet `Markah` wujud.
+-   Pastikan Apps Script berjaya menerima `saveScore`.
 
-============================================================ 11.
-TROUBLESHOOTING
-============================================================
-
-Data tidak dihantar: - Semak API_URL - Semak deployment Apps Script -
-Semak kebenaran “Anyone” - Semak Console Browser
-
-============================================================ 12.
-PENYELENGGARAAN
-============================================================
-
--   Jangan hardcode URL.
--   Gunakan config.js.
--   Backup Google Sheets.
--   Backup Apps Script.
-
-============================================================ 13. ROADMAP
-============================================================
+# 🔮 Perancangan Masa Hadapan
 
 -   Dashboard Pentadbir
--   Semakan Sijil
--   Email automatik
+-   Analitik Prestasi
 -   Leaderboard
+-   Email Automatik
 -   Looker Studio
--   Analitik
+-   AI Learning Assistant
 
-============================================================ 14. LESEN
-============================================================
+# 👨‍💻 Pembangun
 
-Hak Cipta © Kolej Vokasional Miri. Untuk kegunaan dalaman dan latihan
-SPK.
+**Salton Dirlys**
+
+Kolej Vokasional Miri
+
+# 📄 Lesen
+
+Hak Cipta © Kolej Vokasional Miri.
+
+Dokumen ini boleh diubah suai untuk kegunaan dalaman SPK.

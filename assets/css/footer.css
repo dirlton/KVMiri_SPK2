@@ -70,6 +70,13 @@ Production Footer Styles v1.0
     gap:.75rem;
 }
 
+.footer-links h4{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#fff;
+    margin-bottom:.75rem;
+}
+
 .footer-links a{
     color:rgba(255,255,255,.82);
     transition:var(--transition);
@@ -84,6 +91,7 @@ Production Footer Styles v1.0
     display:flex;
     flex-direction:column;
     gap:.8rem;
+    
 }
 
 .footer-contact div{
@@ -91,6 +99,17 @@ Production Footer Styles v1.0
     align-items:flex-start;
     gap:.75rem;
     color:rgba(255,255,255,.85);
+}
+
+.footer-contact h4{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#fff;
+    margin-bottom:.75rem;
+}
+
+.footer-contact p{
+    color:rgba(255,255,255,.82);
 }
 
 .footer-social{
